@@ -1,0 +1,50 @@
+{
+  // "header": {
+  //   "title": "Header__desktop",
+  //   "blocks": [
+  //     "header-layout.desktop#header__desktop",
+  //     "header-layout.mobile#header__mobile"
+  //   ]
+  // },
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop#header__desktop",
+      "header-layout.mobile#header__mobile"
+    ]
+  },
+  "header-layout.desktop#header__desktop": {
+    "children": [
+      "header-row#header__desktop"
+    ]
+  },
+  "header-layout.mobile#header__mobile": {
+    "children": [
+      "header-row#header__mobile"
+    ]
+  },
+  "header-row#header__desktop": {
+    "title": "title desktop",
+    "children": [
+      "rich-text#header__desktop"
+    ]
+  },
+  "header-row#header__mobile": {
+    "title": "title mobile",
+    "children": [
+      "rich-text#header__mobile"
+    ]
+  },
+  "rich-text#header__desktop": {
+    "title": "text header desktop",
+    "props": {
+      "text": "este es mi header inicial para desktop"
+    }
+  },
+  "rich-text#header__mobile": {
+    "title": "text header mobile",
+    "props": {
+      "text": "este es mi header para mobile"
+    }
+  }
+}

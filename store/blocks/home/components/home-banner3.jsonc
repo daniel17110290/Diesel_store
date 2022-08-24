@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#home__banner--three": {
+        "children": [
+            "image#home__banner--three"
+        ]
+    },
+    "image#home__banner--three": {
+        "props": {
+            "src": "assets/images/banner-home-pride-desk.jpg",
+            "link": {
+                "url": "https://danielfernandez--itgloberspartnercl.myvtex.com"
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#home__banner--four": {
+        "props": {
+            "blockClass": "home__banner--four"
+        },
+        "children": [
+            "flex-layout.col#banner__diesel--four"
+        ]
+    },
+    "flex-layout.col#banner__diesel--four": {
+        "props": {
+            "blockClass": "banner__diesel_four"
+        },
+        "children": [
+            "image#home__banner--four",
+            "link#button__banner--four"
+        ]
+    },
+    "link#button__banner--four": {
+        "props": {
+            "label": "DESCUBRE MÁS",
+            "displayMode": "button",
+            "blockClass": "button__banner--four",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
+            }
+        }
+    },
+    "image#home__banner--four": {
+        "props": {
+            "src": "assets/images/landing-fashion-show2022-desk.jpg",
+            "blockClass": "home__banner--four"
+        }
+    }
+}

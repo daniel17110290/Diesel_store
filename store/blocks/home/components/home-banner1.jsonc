@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#home__banner--one": {
+        "props": {
+            "blockClass": "home__banner--one"
+        },
+        "children": [
+            "flex-layout.col#banner__diesel--one"
+        ]
+    },
+    "flex-layout.col#banner__diesel--one": {
+        "props": {
+            "blockClass": "banner__diesel_one"
+        },
+        "children": [
+            "image#home__banner--one",
+            "link#button__banner--one"
+        ]
+    },
+    "link#button__banner--one": {
+        "props": {
+            "label": "DESCUBRE MÁS",
+            "displayMode": "button",
+            "blockClass": "button__banner--one",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "small"
+            }
+        }
+    },
+    "image#home__banner--one": {
+        "props": {
+            "src": "assets/images/home-desk-sport-deisel.jpg",
+            "blockClass": "home__banner--one"
+        }
+    }
+}
