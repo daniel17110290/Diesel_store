@@ -1,50 +1,243 @@
 {
-  // "header": {
-  //   "title": "Header__desktop",
-  //   "blocks": [
-  //     "header-layout.desktop#header__desktop",
-  //     "header-layout.mobile#header__mobile"
-  //   ]
-  // },
   "header.full": {
     "title": "Header",
     "blocks": [
-      "header-layout.desktop#header__desktop",
-      "header-layout.mobile#header__mobile"
-    ]
+      "header-layout.desktop#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__Desktop"
+    }
   },
   "header-layout.desktop#header__desktop": {
     "children": [
-      "header-row#header__desktop"
-    ]
-  },
-  "header-layout.mobile#header__mobile": {
-    "children": [
-      "header-row#header__mobile"
-    ]
-  },
-  "header-row#header__desktop": {
-    "title": "title desktop",
-    "children": [
-      "rich-text#header__desktop"
-    ]
-  },
-  "header-row#header__mobile": {
-    "title": "title mobile",
-    "children": [
-      "rich-text#header__mobile"
-    ]
-  },
-  "rich-text#header__desktop": {
-    "title": "text header desktop",
+      "header-row#header__Desktop--top",
+      "header-force-center#header__logo--middle"
+    ],
     "props": {
-      "text": "este es mi header inicial para desktop"
+      "blockClass": "header__top--desktop"
     }
   },
-  "rich-text#header__mobile": {
-    "title": "text header mobile",
+  "header-force-center#header__logo--middle": {
+    "children": [
+      "logo#header__top--middle"
+    ],
     "props": {
-      "text": "este es mi header para mobile"
+      "blockClass": "header__center--top"
+    }
+  },
+  "logo#header__top--middle": {
+    "title": "Logo header",
+    "props": {
+      "href": "/",
+      "url": "assets/images/header__logo.png",
+      "height": "40px",
+      "width": "180px",
+      "blockClass": "logo__top--middle"
+    }
+  },
+  "header-row#header__Desktop--top": {
+    "title": "texto de prueba",
+    "children": [
+      "menu#header__menu--departments",
+      "header-spacer",
+      "link#header__desktop--search",
+      "link#header__desktop--sesion",
+      "link#header__desktop--favorites",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__row--desktop"
+    }
+  },
+  "link#header__desktop--favorites": {
+    "props": {
+      "label": "favoritos",
+      "href": "/",
+      "rel": "favorites",
+      "blockClass": "button__header--favorites"
+    }
+  },
+  "link#header__desktop--sesion": {
+    "props": {
+      "label": "SESION",
+      "href": "/",
+      "blockClass": "button__header--sesion"
+    }
+  },
+  "link#header__desktop--search": {
+    "props": {
+      "label": "BUSCAR",
+      "href": "/",
+      "blockClass": "button__header--search"
+    }
+  },
+  "menu#header__menu--departments": {
+    "title": "menu header departments",
+    "children": [
+      "menu-item#department__man",
+      "menu-item#department__woman",
+      "menu-item#department__sale"
+    ]
+    // "props": {
+    //   "onMountBehavior": "closed"
+    // }
+  },
+  "menu-item#department__man": {
+    "props": {
+      "id": "menu-item-man",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__department--man",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "department man",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department__man"
+    ]
+  },
+  "submenu.accordion#department__man": {
+    "children": [
+      "menu#menu__department--man"
+    ]
+  },
+  "menu#menu__department--man": {
+    "children": [
+      "menu-item#menu__category--nuevo",
+      "menu-item#menu__category--denim",
+      "menu-item#menu__category--ropa",
+      "menu-item#menu__category--zapatos",
+      "menu-item#menu__category--accesorios",
+      "menu-item#menu__category--relojes"
+    ],
+    "props": {
+      "props": {
+        "onMountBehavior": "open"
+      }
+    }
+  },
+  "menu-item#menu__category--nuevo": {
+    "props": {
+      "id": "menu-item__category--nuevo",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--nuevo",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category nuevo",
+        "text": "LO NUEVO"
+      }
+    }
+  },
+  "menu-item#menu__category--denim": {
+    "props": {
+      "id": "menu-item__category--denim",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--denim",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category denim",
+        "text": "DENIM"
+      }
+    }
+  },
+  "menu-item#menu__category--ropa": {
+    "props": {
+      "id": "menu-item__category--ropa",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--ropa",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category ropa",
+        "text": "ROPA"
+      }
+    }
+  },
+  "menu-item#menu__category--zapatos": {
+    "props": {
+      "id": "menu-item__category--ropa",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--zapatos",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category zapatos",
+        "text": "ZAPATOS"
+      }
+    }
+  },
+  "menu-item#menu__category--accesorios": {
+    "props": {
+      "id": "menu-item__category--accesorios",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--accesorios",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category accesorios",
+        "text": "ACCESORIOS"
+      }
+    }
+  },
+  "menu-item#menu__category--relojes": {
+    "props": {
+      "id": "menu-item__category--relojes",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--relojes",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category relojes",
+        "text": "RELOJES"
+      }
+    }
+  },
+  "menu-item#department__woman": {
+    "props": {
+      "id": "menu-item-man",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__department--woman",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "department woman",
+        "text": "MUJER"
+      }
+    }
+  },
+  "menu-item#department__sale": {
+    "props": {
+      "id": "menu-item-man",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__department--sale",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "department sale",
+        "text": "SALE"
+      }
     }
   }
+  // "drawer#header__desktop--menu": {
+  //   "children": []
+  // }
 }
