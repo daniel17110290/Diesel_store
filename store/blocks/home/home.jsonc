@@ -5,7 +5,8 @@
       "flex-layout.row#home__banner--two",
       "flex-layout.row#home__banner--three",
       "flex-layout.row#home__banner--four",
-      "flex-layout.row#home__banner--five"
+      "flex-layout.row#home__banner--five",
+      "flex-layout.row#card__home--store"
     ]
   }
 }

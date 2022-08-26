@@ -41,7 +41,7 @@
       "menu#header__menu--departments",
       "header-spacer",
       "link#header__desktop--search",
-      "link#header__desktop--sesion",
+      "login#header__login",
       "link#header__desktop--favorites",
       "minicart.v2"
     ],
@@ -57,11 +57,14 @@
       "blockClass": "button__header--favorites"
     }
   },
-  "link#header__desktop--sesion": {
+  "login#header__login": {
     "props": {
-      "label": "SESION",
-      "href": "/",
-      "blockClass": "button__header--sesion"
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "logInButtonBehavior": "link"
     }
   },
   "link#header__desktop--search": {
@@ -78,9 +81,6 @@
       "menu-item#department__woman",
       "menu-item#department__sale"
     ]
-    // "props": {
-    //   "onMountBehavior": "closed"
-    // }
   },
   "menu-item#department__man": {
     "props": {
@@ -96,35 +96,30 @@
       }
     },
     "blocks": [
-      "submenu.accordion#department__man"
+      "submenu#department__man"
     ]
   },
-  "submenu.accordion#department__man": {
+  "submenu#department__man": {
     "children": [
       "menu#menu__department--man"
     ]
   },
   "menu#menu__department--man": {
     "children": [
-      "menu-item#menu__category--nuevo",
-      "menu-item#menu__category--denim",
-      "menu-item#menu__category--ropa",
-      "menu-item#menu__category--zapatos",
-      "menu-item#menu__category--accesorios",
-      "menu-item#menu__category--relojes"
-    ],
-    "props": {
-      "props": {
-        "onMountBehavior": "open"
-      }
-    }
+      "menu-item#menu__category--nuevo--man",
+      "menu-item#menu__category--denim--man",
+      "menu-item#menu__category--ropa--man",
+      "menu-item#menu__category--zapatos--man",
+      "menu-item#menu__category--accesorios--man",
+      "menu-item#menu__category--relojes--man"
+    ]
   },
-  "menu-item#menu__category--nuevo": {
+  "menu-item#menu__category--nuevo--man": {
     "props": {
       "id": "menu-item__category--nuevo",
       "type": "custom",
       "highlight": false,
-      "blockClass": "menu__category--nuevo",
+      "blockClass": "menu__category--nuevo--man",
       "itemProps": {
         "type": "external",
         "href": "/",
@@ -134,12 +129,12 @@
       }
     }
   },
-  "menu-item#menu__category--denim": {
+  "menu-item#menu__category--denim--man": {
     "props": {
       "id": "menu-item__category--denim",
       "type": "custom",
       "highlight": false,
-      "blockClass": "menu__category--denim",
+      "blockClass": "menu__category--denim--man",
       "itemProps": {
         "type": "external",
         "href": "/",
@@ -147,14 +142,88 @@
         "tagTitle": "category denim",
         "text": "DENIM"
       }
+    },
+    "blocks": [
+      "submenu#department__denim"
+    ]
+  },
+  "submenu#department__denim": {
+    "children": [
+      "flex-layout.row#menuContainer__denim--man"
+    ],
+    "props": {
+      "blockClass": "submenu__denim--man"
     }
   },
-  "menu-item#menu__category--ropa": {
+  "flex-layout.row#menuContainer__denim--man": {
+    "children": [
+      "flex-layout.col#container__denim--man"
+      //"image#image__denim--man"
+    ],
+    "props": {
+      "blockClass": "rowContainer__denim--man"
+    }
+  },
+  "flex-layout.col#container__denim--man": {
+    "children": [
+      "menu#menu__denim--man"
+    ],
+    "props": {
+      "blockClass": "colContainer__denim--man"
+    }
+  },
+  "menu#menu__denim--man": {
+    "children": [
+      "menu-item#menu__denim--jeans",
+      "menu-item#menu__denim--joggjeans"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu__denim--man"
+    }
+  },
+  "menu-item#menu__denim--jeans": {
+    "props": {
+      "id": "menu-item__denim--jeans",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__denim--jeans",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category denim jeans",
+        "text": "jeans"
+      }
+    }
+  },
+  "menu-item#menu__denim--joggjeans": {
+    "props": {
+      "id": "menu-item__denim--joggjeans",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__denim--joggjeans",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category denim joggjeans",
+        "text": "joggjeans"
+      }
+    }
+  },
+  "image#image__denim--man": {
+    "props": {
+      "src": "assets/images/image__denim--man.jpg",
+      "blockClass": "denim__image"
+    }
+  },
+  "menu-item#menu__category--ropa--man": {
     "props": {
       "id": "menu-item__category--ropa",
       "type": "custom",
       "highlight": false,
-      "blockClass": "menu__category--ropa",
+      "blockClass": "menu__category--ropa--man",
       "itemProps": {
         "type": "external",
         "href": "/",
@@ -164,12 +233,12 @@
       }
     }
   },
-  "menu-item#menu__category--zapatos": {
+  "menu-item#menu__category--zapatos--man": {
     "props": {
       "id": "menu-item__category--ropa",
       "type": "custom",
       "highlight": false,
-      "blockClass": "menu__category--zapatos",
+      "blockClass": "menu__category--zapatos--man",
       "itemProps": {
         "type": "external",
         "href": "/",
@@ -179,12 +248,12 @@
       }
     }
   },
-  "menu-item#menu__category--accesorios": {
+  "menu-item#menu__category--accesorios--man": {
     "props": {
       "id": "menu-item__category--accesorios",
       "type": "custom",
       "highlight": false,
-      "blockClass": "menu__category--accesorios",
+      "blockClass": "menu__category--accesorios--man",
       "itemProps": {
         "type": "external",
         "href": "/",
@@ -194,12 +263,12 @@
       }
     }
   },
-  "menu-item#menu__category--relojes": {
+  "menu-item#menu__category--relojes--man": {
     "props": {
       "id": "menu-item__category--relojes",
       "type": "custom",
       "highlight": false,
-      "blockClass": "menu__category--relojes",
+      "blockClass": "menu__category--relojes--man",
       "itemProps": {
         "type": "external",
         "href": "/",
@@ -221,6 +290,98 @@
         "tagTitle": "department woman",
         "text": "MUJER"
       }
+    },
+    "blocks": [
+      "submenu#department__woman"
+    ]
+  },
+  "submenu#department__woman": {
+    "children": [
+      "menu#menu__department--woman"
+    ]
+  },
+  "menu#menu__department--woman": {
+    "children": [
+      "menu-item#menu__category--nuevo--woman",
+      "menu-item#menu__category--denim--woman",
+      "menu-item#menu__category--ropa--woman",
+      "menu-item#menu__category--zapatos--woman",
+      "menu-item#menu__category--accesorios--woman"
+    ]
+  },
+  "menu-item#menu__category--nuevo--woman": {
+    "props": {
+      "id": "menu-item__category--nuevo",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--nuevo--woman",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category nuevo",
+        "text": "LO NUEVO"
+      }
+    }
+  },
+  "menu-item#menu__category--denim--woman": {
+    "props": {
+      "id": "menu-item__category--denim",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--denim--woman",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category denim",
+        "text": "DENIM"
+      }
+    }
+  },
+  "menu-item#menu__category--ropa--woman": {
+    "props": {
+      "id": "menu-item__category--ropa",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--ropa--woman",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category ropa",
+        "text": "ROPA"
+      }
+    }
+  },
+  "menu-item#menu__category--zapatos--woman": {
+    "props": {
+      "id": "menu-item__category--ropa",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--zapatos--woman",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category zapatos",
+        "text": "ZAPATOS"
+      }
+    }
+  },
+  "menu-item#menu__category--accesorios--woman": {
+    "props": {
+      "id": "menu-item__category--accesorios",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--accesorios--woman",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category accesorios",
+        "text": "ACCESORIOS"
+      }
     }
   },
   "menu-item#department__sale": {
@@ -235,9 +396,50 @@
         "tagTitle": "department sale",
         "text": "SALE"
       }
+    },
+    "blocks": [
+      "submenu#department__sale"
+    ]
+  },
+  "submenu#department__sale": {
+    "children": [
+      "menu#menu__department--sale"
+    ]
+  },
+  "menu#menu__department--sale": {
+    "children": [
+      "menu-item#menu__category--man--sale",
+      "menu-item#menu__category--woman--sale"
+    ]
+  },
+  "menu-item#menu__category--man--sale": {
+    "props": {
+      "id": "menu-item__category--man",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--man--sale",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category hombre",
+        "text": "HOMBRE"
+      }
+    }
+  },
+  "menu-item#menu__category--woman--sale": {
+    "props": {
+      "id": "menu-item__category--woman",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu__category--woman--sale",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "category mujer",
+        "text": "MUJER"
+      }
     }
   }
-  // "drawer#header__desktop--menu": {
-  //   "children": []
-  // }
 }
