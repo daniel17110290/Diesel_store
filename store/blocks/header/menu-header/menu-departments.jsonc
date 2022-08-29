@@ -1,0 +1,10 @@
+{
+    "menu#header__menu--departments": {
+        "title": "menu header departments",
+        "children": [
+            "menu-item#department__man",
+            "menu-item#department__woman",
+            "menu-item#department__sale"
+        ]
+    }
+}

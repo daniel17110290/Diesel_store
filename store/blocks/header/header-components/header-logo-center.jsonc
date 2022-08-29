@@ -1,0 +1,20 @@
+{
+    "header-force-center#header__logo--middle": {
+        "children": [
+            "logo#header__top--middle"
+        ],
+        "props": {
+            "blockClass": "header__center--top"
+        }
+    },
+    "logo#header__top--middle": {
+        "title": "Logo header",
+        "props": {
+            "href": "/",
+            "url": "assets/images/header__logo.png",
+            "height": "40px",
+            "width": "180px",
+            "blockClass": "logo__top--middle"
+        }
+    }
+}

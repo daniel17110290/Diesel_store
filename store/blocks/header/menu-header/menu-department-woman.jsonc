@@ -1,0 +1,123 @@
+{
+    "menu-item#department__woman": {
+        "props": {
+            "id": "menu-item-man",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__department--woman",
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "department woman",
+                "text": "MUJER"
+            }
+        },
+        "blocks": [
+            "submenu#department__woman"
+        ]
+    },
+    "submenu#department__woman": {
+        "children": [
+            "menu#menu__department--woman"
+        ]
+    },
+    "menu#menu__department--woman": {
+        "children": [
+            "menu-item#menu__category--nuevo--woman",
+            "menu-item#menu__category--denim--woman",
+            "menu-item#menu__category--ropa--woman",
+            "menu-item#menu__category--zapatos--woman",
+            "menu-item#menu__category--accesorios--woman"
+        ]
+    },
+    "menu-item#menu__category--nuevo--woman": {
+        "props": {
+            "id": "menu-item__category--nuevo",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__category--nuevo--woman",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "category nuevo",
+                "text": "LO NUEVO"
+            }
+        },
+        "blocks": [
+            "submenu#department__denim"
+        ]
+    },
+    "menu-item#menu__category--denim--woman": {
+        "props": {
+            "id": "menu-item__category--denim",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__category--denim--woman",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "category denim",
+                "text": "DENIM"
+            }
+        },
+        "blocks": [
+            "submenu#department__denim"
+        ]
+    },
+    "menu-item#menu__category--ropa--woman": {
+        "props": {
+            "id": "menu-item__category--ropa",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__category--ropa--woman",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "category ropa",
+                "text": "ROPA"
+            }
+        },
+        "blocks": [
+            "submenu#department__denim"
+        ]
+    },
+    "menu-item#menu__category--zapatos--woman": {
+        "props": {
+            "id": "menu-item__category--ropa",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__category--zapatos--woman",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "category zapatos",
+                "text": "ZAPATOS"
+            }
+        },
+        "blocks": [
+            "submenu#department__denim"
+        ]
+    },
+    "menu-item#menu__category--accesorios--woman": {
+        "props": {
+            "id": "menu-item__category--accesorios",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__category--accesorios--woman",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "category accesorios",
+                "text": "ACCESORIOS"
+            }
+        },
+        "blocks": [
+            "submenu#department__denim"
+        ]
+    }
+}
