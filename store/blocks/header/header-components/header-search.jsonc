@@ -1,0 +1,36 @@
+{
+    "modal-trigger#header__search--desktop": {
+        "children": [
+            "rich-text#header__desktop--search",
+            "modal-layout#header__search"
+        ]
+    },
+    "rich-text#header__desktop--search": {
+        "props": {
+            "text": "BUSCAR",
+            "blockClass": "button__header--search"
+        }
+    },
+    "modal-layout#header__search": {
+        "children": [
+            "modal-header",
+            "search-bar#search"
+        ],
+        "props": {
+            "blockClass": "modal__search"
+        }
+    },
+    "modal-header": {
+        "props": {
+            "iconCloseSize": 20
+        }
+    },
+    "search-bar#search": {
+        // "blocks": [
+        //     "autocomplete-result-list.v2"
+        // ],
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
+    }
+}
