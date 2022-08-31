@@ -1,0 +1,223 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ]
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.col#footer__container--info"
+    ],
+    "props": {
+      "blockClass": "footer__container--info"
+    }
+  },
+  "flex-layout.col#footer__container--info": {
+    "children": [
+      "flex-layout.row#seccion__payments",
+      "flex-layout.row#seccion__info",
+      "flex-layout.row#seccion__images"
+    ]
+  },
+  "flex-layout.row#seccion__info": {
+    "children": [
+      "disclosure-layout-group#footer__menus--group",
+      "link#localizador__tienda",
+      "link#ship__to"
+    ]
+  },
+  "disclosure-layout-group#footer__menus--group": {
+    "children": [
+      "disclosure-layout#ayuda",
+      "disclosure-layout#condiciones",
+      "disclosure-layout#worldofdiesel"
+    ]
+  },
+  "disclosure-layout#ayuda": {
+    "children": [
+      "disclosure-trigger#ayuda",
+      "disclosure-content#ayuda"
+    ]
+  },
+  "disclosure-trigger#ayuda": {
+    "children": [
+      "rich-text#ayuda"
+    ]
+  },
+  "rich-text#ayuda": {
+    "props": {
+      "text": "AYUDA"
+    }
+  },
+  "disclosure-content#ayuda": {
+    "children": [
+      "menu#ayuda__container"
+    ]
+  },
+  "menu#ayuda__container": {
+    "children": [
+      "menu-item#Mis__pedidos",
+      "menu-item#Guia__tallas",
+      "menu-item#Envio",
+      "menu-item#Reembolso",
+      "menu-item#Contactanos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#Mis__pedidos": {
+    "props": {
+      "id": "menu-pedidos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Mis Pedidos",
+        "text": "Mis Pedidos"
+      }
+    }
+  },
+  "menu-item#Envio": {
+    "props": {
+      "id": "menu-envio",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Envio",
+        "text": "Envio"
+      }
+    }
+  },
+  "menu-item#Reembolso": {
+    "props": {
+      "id": "menu-reembolso",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Reembolso",
+        "text": "Reembolso"
+      }
+    }
+  },
+  "menu-item#Contactanos": {
+    "props": {
+      "id": "menu-contactanos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Contactanos",
+        "text": "Contactanos"
+      }
+    }
+  },
+  "menu-item#Guia__tallas": {
+    "props": {
+      "id": "menu-guia-tallas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Guia de tallas",
+        "text": "Guia de tallas"
+      }
+    }
+  },
+  "disclosure-layout#condiciones": {
+    "children": [
+      "disclosure-trigger#condiciones",
+      "disclosure-content#condiciones"
+    ]
+  },
+  "disclosure-trigger#condiciones": {
+    "children": [
+      "rich-text#condiciones"
+    ]
+  },
+  "rich-text#condiciones": {
+    "props": {
+      "text": "CONDICIONES"
+    }
+  },
+  "disclosure-content#condiciones": {
+    "children": [
+      "menu#ayuda__container"
+    ]
+  },
+  "disclosure-layout#worldofdiesel": {
+    "children": [
+      "disclosure-trigger#worldofdiesel",
+      "disclosure-content#worldofdiesel"
+    ]
+  },
+  "disclosure-trigger#worldofdiesel": {
+    "children": [
+      "rich-text#worldofdiesel"
+    ]
+  },
+  "rich-text#worldofdiesel": {
+    "props": {
+      "text": "WORLD OF DIESEL"
+    }
+  },
+  "disclosure-content#worldofdiesel": {
+    "children": [
+      "menu#ayuda__container"
+    ]
+  },
+  "link#localizador__tienda": {
+    "title": "link__localozador--tienda",
+    "props": {
+      "label": "LOCALIZADOR DE TIENDAS",
+      "href": "/",
+      "blockClass": "localozador--tienda"
+    }
+  },
+  "link#ship__to": {
+    "title": "link__ship--to",
+    "props": {
+      "label": "SHIP TO",
+      "href": "/",
+      "blockClass": "link__ship--to"
+    }
+  },
+  "flex-layout.row#seccion__images": {
+    "children": [
+      "image#propaganda__bancos"
+    ],
+    "props": {
+      "blockClass": "imagen__propaganda"
+    }
+  },
+  "image#propaganda__bancos": {
+    "props": {
+      "src": "assets/images/supported_methods_footer-diesel-.jpg",
+      "blockClass": "footer__image--propaganda"
+    }
+  },
+  "flex-layout.row#seccion__payments": {
+    "children": [
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "blockClass": "container__payments--methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "mastercard",
+        "visa",
+        "diners club"
+      ]
+    }
+  }
+}
