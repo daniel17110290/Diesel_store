@@ -7,7 +7,8 @@
       "flex-layout.row#home__banner--four",
       "flex-layout.row#home__banner--five",
       "flex-layout.row#card__home--store",
-      "search-result-layout.customQuery#home__search"
+      "search-result-layout.customQuery#home__search",
+      "footer"
     ]
   },
   "search-result-layout.customQuery#home__search": {
