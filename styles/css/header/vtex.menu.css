@@ -1,0 +1,18 @@
+.styledLinkContent--menu__department--man{
+    font-size: 15px;
+    font-weight: bold;
+}
+.styledLinkContent--menu__department--woman{
+    font-size: 15px;
+    font-weight: bold;
+}
+.styledLinkContent--menu__department--sale{
+    font-size: 15px;
+    font-weight: bold;
+    color: brown;
+}
+.submenuWrapper--submenu__denim--man{
+    height: 200px;
+    width: 600px;
+}
+

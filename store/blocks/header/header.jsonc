@@ -1,0 +1,42 @@
+{
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__Desktop"
+    }
+  },
+  "header-layout.desktop#header__desktop": {
+    "children": [
+      "header-row#header__Desktop--top",
+      "header-force-center#header__logo--middle"
+    ],
+    "props": {
+      "blockClass": "header__top--desktop"
+    }
+  },
+  "header-row#header__Desktop--top": {
+    "title": "header content",
+    "children": [
+      "menu#header__menu--departments",
+      "header-spacer",
+      "modal-trigger#header__search--desktop",
+      "login#header__login",
+      "link#header__desktop--favorites",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__row--desktop"
+    }
+  },
+  "link#header__desktop--favorites": {
+    "props": {
+      "label": "favoritos",
+      "href": "/",
+      "rel": "favorites",
+      "blockClass": "button__header--favorites"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+    "menu-item#department__sale": {
+        "props": {
+            "id": "menu-item-man",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__department--sale",
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "department sale",
+                "text": "SALE"
+            }
+        },
+        "blocks": [
+            "submenu#department__sale"
+        ]
+    },
+    "submenu#department__sale": {
+        "children": [
+            "menu#menu__department--sale"
+        ]
+    },
+    "menu#menu__department--sale": {
+        "children": [
+            "menu-item#menu__category--man--sale",
+            "menu-item#menu__category--woman--sale"
+        ]
+    },
+    "menu-item#menu__category--man--sale": {
+        "props": {
+            "id": "menu-item__category--man",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__category--man--sale",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "category hombre",
+                "text": "HOMBRE"
+            }
+        },
+        "blocks": [
+            "submenu#department__denim"
+        ]
+    },
+    "menu-item#menu__category--woman--sale": {
+        "props": {
+            "id": "menu-item__category--woman",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__category--woman--sale",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "category mujer",
+                "text": "MUJER"
+            }
+        },
+        "blocks": [
+            "submenu#department__denim"
+        ]
+    }
+}

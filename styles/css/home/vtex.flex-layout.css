@@ -1,0 +1,15 @@
+/* .flexRowContent--home__banner--one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    
+    position: relative;
+    
+} */
+
+.flexCol--banner__diesel_one{
+    position: relative;
+}
+.flexCol--banner__diesel_four{
+    position: relative;
+}
+.flexCol--banner__diesel_five{
+    position: relative;
+}

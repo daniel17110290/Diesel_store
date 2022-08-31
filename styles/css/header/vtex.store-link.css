@@ -1,0 +1,18 @@
+.link--button__header--sesion{
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    font-size: small
+}
+.link--button__header--search{
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    font-size: small
+}
+
+.link--button__header--favorites{
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+}
