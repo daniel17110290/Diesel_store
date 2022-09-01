@@ -7,8 +7,7 @@
       "flex-layout.row#home__banner--four",
       "flex-layout.row#home__banner--five",
       "flex-layout.row#card__home--store",
-      "search-result-layout.customQuery#home__search",
-      "footer"
+      "search-result-layout.customQuery#home__search"
     ]
   },
   "search-result-layout.customQuery#home__search": {
@@ -48,6 +47,20 @@
   "gallery": {
     "blocks": [
       "product-summary.shelf"
+    ]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      //"product-summary-description",
+      "product-summary-image",
+      "product-list-price",
+      "product-selling-price",
+      "product-price-savings",
+      "product-installments",
+      //"product-summary-price",
+      //"product-summary-sku-selector",
+      "product-summary-buy-button"
     ]
   }
 }
