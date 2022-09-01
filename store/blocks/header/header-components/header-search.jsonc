@@ -26,9 +26,9 @@
         }
     },
     "search-bar#search": {
-        // "children": [
-        //     "autocomplete-result-list.v2"
-        // ],
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
         "props": {
             "openAutocompleteOnFocus": true
         }

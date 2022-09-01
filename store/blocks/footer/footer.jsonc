@@ -205,6 +205,7 @@
   },
   "flex-layout.row#seccion__payments": {
     "children": [
+      "rich-text#etodos__pago",
       "accepted-payment-methods"
     ],
     "props": {
@@ -218,6 +219,12 @@
         "visa",
         "diners club"
       ]
+    }
+  },
+  "rich-text#etodos__pago": {
+    "props": {
+      "text": "METODOS DE PAGO",
+      "blockClass": "metodos__pago"
     }
   }
 }
