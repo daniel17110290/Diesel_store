@@ -56,9 +56,9 @@
       "product-summary-image",
       "product-list-price",
       "product-selling-price",
-      "product-price-savings",
-      "product-installments",
-      //"product-summary-price",
+      //"product-price-savings",
+      //"product-installments",
+      "product-summary-price",
       //"product-summary-sku-selector",
       "product-summary-buy-button"
     ]
