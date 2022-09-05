@@ -3,7 +3,8 @@
     "props": {
       //"variation": "popup",
       "itemCountMode": "totalAvailable",
-      "quantityDisplay": "always"
+      "quantityDisplay": "always",
+      "MinicartIcon": "icon-cart"
     },
     "children": [
       "minicart-base-content#minicart__content"
