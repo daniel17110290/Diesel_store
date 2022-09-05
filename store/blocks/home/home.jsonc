@@ -6,61 +6,61 @@
       "flex-layout.row#home__banner--three",
       "flex-layout.row#home__banner--four",
       "flex-layout.row#home__banner--five",
-      "flex-layout.row#card__home--store",
-      "search-result-layout.customQuery#home__search"
-    ]
-  },
-  "search-result-layout.customQuery#home__search": {
-    "props": {
-      "querySchema": {
-        "skusFilter": "ALL",
-        "simulationBehavios": "skip"
-      }
-    },
-    "blocks": [
-      "search-result-layout.desktop#home__Search--desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
-  },
-  "search-result-layout.desktop#home__Search--desktop": {
-    "children": [
-      "flex-layout.row#home__results--search"
-    ]
-  },
-  "flex-layout.row#home__results--search": {
-    "children": [
-      "flex-layout.col#home__results--search"
-    ]
-  },
-  "flex-layout.col#home__results--search": {
-    "children": [
-      "search-content#home__results--content"
-    ]
-  },
-  "search-content#home__results--content": {
-    "blocks": [
-      "gallery",
-      "not-found"
-    ]
-  },
-  "gallery": {
-    "blocks": [
-      "product-summary.shelf"
-    ]
-  },
-  "product-summary.shelf": {
-    "children": [
-      "product-summary-name",
-      //"product-summary-description",
-      "product-summary-image",
-      "product-list-price",
-      "product-selling-price",
-      //"product-price-savings",
-      //"product-installments",
-      "product-summary-price",
-      //"product-summary-sku-selector",
-      "product-summary-buy-button"
+      "flex-layout.row#card__home--store"
+      //"search-result-layout.customQuery#home__search"
     ]
   }
+  // "search-result-layout.customQuery#home__search": {
+  //   "props": {
+  //     "querySchema": {
+  //       "skusFilter": "ALL",
+  //       "simulationBehavios": "skip"
+  //     }
+  //   },
+  //   "blocks": [
+  //     "search-result-layout.desktop#home__Search--desktop",
+  //     "search-result-layout.mobile",
+  //     "search-not-found-layout"
+  //   ]
+  // },
+  // "search-result-layout.desktop#home__Search--desktop": {
+  //   "children": [
+  //     "flex-layout.row#home__results--search"
+  //   ]
+  // },
+  // "flex-layout.row#home__results--search": {
+  //   "children": [
+  //     "flex-layout.col#home__results--search"
+  //   ]
+  // },
+  // "flex-layout.col#home__results--search": {
+  //   "children": [
+  //     "search-content#home__results--content"
+  //   ]
+  // },
+  // "search-content#home__results--content": {
+  //   "blocks": [
+  //     "gallery",
+  //     "not-found"
+  //   ]
+  // },
+  // "gallery": {
+  //   "blocks": [
+  //     "product-summary.shelf"
+  //   ]
+  // },
+  // "product-summary.shelf": {
+  //   "children": [
+  //     //"product-summary-name",
+  //     //"product-summary-description",
+  //     "product-summary-image",
+  //     "product-list-price",
+  //     "product-selling-price",
+  //     //"product-price-savings",
+  //     //"product-installments",
+  //     "product-summary-price",
+  //     //"product-summary-sku-selector",
+  //     "add-to-cart-button"
+  //   ]
+  // }
 }
