@@ -69,12 +69,18 @@
     "blocks": [
       "gallery",
       "not-found"
-    ]
+    ],
+    "props": {
+      "blockClass": "content__products"
+    }
   },
   "gallery": {
     "blocks": [
       "product-summary.shelf"
-    ]
+    ],
+    "props": {
+      "blockClass": "gallery__product"
+    }
   },
   "product-summary.shelf": {
     "children": [

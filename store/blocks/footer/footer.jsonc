@@ -105,8 +105,25 @@
   },
   "disclosure-trigger#ayuda": {
     "children": [
+      "disclosure-state-indicator",
       "rich-text#ayuda"
     ]
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
   },
   "rich-text#ayuda": {
     "props": {
@@ -198,6 +215,7 @@
   },
   "disclosure-trigger#condiciones": {
     "children": [
+      "disclosure-state-indicator",
       "rich-text#condiciones"
     ]
   },
@@ -219,6 +237,7 @@
   },
   "disclosure-trigger#worldofdiesel": {
     "children": [
+      "disclosure-state-indicator",
       "rich-text#worldofdiesel"
     ]
   },

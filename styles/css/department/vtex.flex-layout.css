@@ -3,9 +3,24 @@
     height: 50%; 
     
 }
-.flexRowContent--filter__department{
-    width: 30%;
-}
 .flexCol--container__content--gallery{
     width: 70%;
+}
+.flexRowContent--filter__department :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    justify-content: left;
+    margin-left: 1rem;
+}
+.flexRowContent--container__department :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    flex-basis: 30%;
+}
+.flexRowContent--container__department :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+
+    flex-basis: 70%;
+}
+
+.flexRow--product--image{
+    height: 200px;
+}
+.flexRowContent--product-name{
+    height: 85px;
 }
