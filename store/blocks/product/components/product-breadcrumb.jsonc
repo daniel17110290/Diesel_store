@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#product__breadcrumb": {
+    "title": "Miga de pan del producto",
+    "children": [
+      "flex-layout.col#product__info--breadcrumb"
+    ]
+  },
+  "flex-layout.col#product__info--breadcrumb": {
+    "children": [
+      "breadcrumb"
+    ]
+  }
+}
