@@ -27,7 +27,10 @@
     ]
   },
   "flex-layout.col#about-us__section--two": {
-    "children": []
+    "children": [],
+    "props": {
+      "blockClass": "product__section-two--about"
+    }
   },
   "flex-layout.col#about-us__section--three": {
     "children": []
