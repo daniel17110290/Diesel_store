@@ -2,3 +2,24 @@
     background: black;
     text-align: center;
 }
+.flexColChild--link__localizador--tienda{
+    margin-top: 2rem;
+}
+.flexColChild--link__ship--to{
+    margin-top: 2rem;
+}
+.flexColChild--container__sections--footer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.flexRow--container__info--section{
+    border-top: 1px solid #CFC9C8;
+    border-bottom: 1px solid #CFC9C8;
+}
+.flexRowContent--container__info--section{
+    margin-left: 4rem;
+}
+.flexRowContent--payment__methods--all{
+    gap: 1rem;
+}

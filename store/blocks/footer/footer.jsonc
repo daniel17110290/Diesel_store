@@ -22,12 +22,18 @@
       "flex-layout.row#seccion__payments",
       "flex-layout.row#seccion__info",
       "flex-layout.row#seccion__images"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__sections--footer"
+    }
   },
   "flex-layout.row#seccion__info": {
     "children": [
       "flex-layout.col#cointainer__disclosure--info"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__info--section"
+    }
   },
   "flex-layout.col#link__localozador": {
     "children": [
@@ -101,18 +107,36 @@
     "children": [
       "disclosure-trigger#ayuda",
       "disclosure-content#ayuda"
-    ]
+    ],
+    "props": {
+      "animated": false,
+      "blockClass": "disclosure__footer"
+    }
   },
   "disclosure-trigger#ayuda": {
     "children": [
-      "disclosure-state-indicator",
-      "rich-text#ayuda"
-    ]
+      "flex-layout.row#trigger__disclosure--footer"
+      // "disclosure-state-indicator",
+      // "rich-text#ayuda"
+    ],
+    "props": {
+      "blockClass": "trigger disclosure"
+    }
+  },
+  "flex-layout.row#trigger__disclosure--footer": {
+    "children": [
+      "rich-text#ayuda",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "container__state--disclosure"
+    }
   },
   "disclosure-state-indicator": {
     "props": {
       "Show": "icon-caret#down",
-      "Hide": "icon-caret#up"
+      "Hide": "icon-caret#up",
+      "blockClass": "state--disclosure"
     }
   },
   "icon-caret#down": {
@@ -153,7 +177,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/about-us",
         "tagTitle": "Mis Pedidos",
         "text": "Mis Pedidos"
       }
@@ -165,7 +189,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/about-us",
         "tagTitle": "Envio",
         "text": "Envio"
       }
@@ -177,7 +201,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/about-us",
         "tagTitle": "Reembolso",
         "text": "Reembolso"
       }
@@ -189,7 +213,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/about-us",
         "tagTitle": "Contactanos",
         "text": "Contactanos"
       }
@@ -201,7 +225,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/about-us",
         "tagTitle": "Guia de tallas",
         "text": "Guia de tallas"
       }
@@ -255,7 +279,7 @@
     "title": "link__localozador--tienda",
     "props": {
       "label": "LOCALIZADOR DE TIENDAS",
-      "href": "/",
+      "href": "/about-us",
       "blockClass": "localozador--tienda"
     }
   },
@@ -263,7 +287,7 @@
     "title": "link__ship--to",
     "props": {
       "label": "SHIP TO",
-      "href": "/",
+      "href": "/about-us",
       "blockClass": "link__ship--to"
     }
   },
@@ -279,30 +303,6 @@
     "props": {
       "src": "assets/images/supported_methods_footer-diesel-.jpg",
       "blockClass": "footer__image--propaganda"
-    }
-  },
-  "flex-layout.row#seccion__payments": {
-    "children": [
-      "rich-text#etodos__pago",
-      "accepted-payment-methods"
-    ],
-    "props": {
-      "blockClass": "container__payments--methods"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": [
-        "mastercard",
-        "visa",
-        "diners club"
-      ]
-    }
-  },
-  "rich-text#etodos__pago": {
-    "props": {
-      "text": "METODOS DE PAGO",
-      "blockClass": "metodos__pago"
     }
   }
 }
