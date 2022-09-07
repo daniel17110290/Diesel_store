@@ -13,3 +13,12 @@
 .flexCol--banner__diesel_five{
     position: relative;
 }
+.flexRow--container__cards--home{
+    margin-right: 7rem;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.flexRowContent--container__cards--home{
+    gap: 1rem;
+}
