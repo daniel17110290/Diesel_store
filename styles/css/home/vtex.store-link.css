@@ -36,3 +36,18 @@
     font-weight: bold;
     border: none;
 }
+.link--link__relojes--card{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link--link__intimate--card{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link--link__fragancias--card{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

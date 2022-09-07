@@ -1,7 +1,7 @@
 {
   "store.search#department": {
     "blocks": [
-      "search-result-layout#department"
+      "search-result-layout"
     ],
     "props": {
       "context": {
@@ -10,7 +10,7 @@
       }
     }
   },
-  "search-result-layout#department": {
+  "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop#department",
       //"search-result-layout.mobile#department",
