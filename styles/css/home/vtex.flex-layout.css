@@ -22,3 +22,9 @@
 .flexRowContent--container__cards--home{
     gap: 1rem;
 }
+.flexCol--container__ayuda{
+    margin-top: 1rem;
+}
+.flexCol--container__condiciones{
+    margin-top: 1rem;
+}

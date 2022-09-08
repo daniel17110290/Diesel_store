@@ -115,21 +115,38 @@
   },
   "disclosure-trigger#ayuda": {
     "children": [
-      "flex-layout.row#trigger__disclosure--footer"
-      // "disclosure-state-indicator",
-      // "rich-text#ayuda"
+      "flex-layout.row#trigger__disclosure--ayuda"
     ],
     "props": {
-      "blockClass": "trigger disclosure"
+      "blockClass": "trigger disclosure",
+      "as": "span"
     }
   },
-  "flex-layout.row#trigger__disclosure--footer": {
+  "flex-layout.row#trigger__disclosure--ayuda": {
     "children": [
-      "rich-text#ayuda",
-      "disclosure-state-indicator"
+      "flex-layout.col#text__ayuda--disclosure",
+      "flex-layout.col#state__indicator--disclosure"
     ],
     "props": {
       "blockClass": "container__state--disclosure"
+    }
+  },
+  "flex-layout.col#text__ayuda--disclosure": {
+    "children": [
+      "rich-text#ayuda"
+    ],
+    "props": {
+      "blockClass": "container--texto__ayuda",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#state__indicator--disclosure": {
+    "children": [
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "state__indicator--icon",
+      "verticalAlign": "middle"
     }
   },
   "disclosure-state-indicator": {
@@ -151,7 +168,8 @@
   },
   "rich-text#ayuda": {
     "props": {
-      "text": "AYUDA"
+      "text": "AYUDA",
+      "blockClass": "ayuda"
     }
   },
   "disclosure-content#ayuda": {
@@ -239,13 +257,35 @@
   },
   "disclosure-trigger#condiciones": {
     "children": [
-      "disclosure-state-indicator",
+      "flex-layout.row#trigger__disclosure--condiciones"
+    ],
+    "props": {
+      "blockClass": "disclosure__condiciones",
+      "as": "span"
+    }
+  },
+  "flex-layout.row#trigger__disclosure--condiciones": {
+    "children": [
+      "flex-layout.col#text__condiciones--disclosure",
+      "flex-layout.col#state__indicator--disclosure"
+    ],
+    "props": {
+      "blockClass": "container__state--disclosure"
+    }
+  },
+  "flex-layout.col#text__condiciones--disclosure": {
+    "children": [
       "rich-text#condiciones"
-    ]
+    ],
+    "props": {
+      "blockClass": "container--texto__condiciones",
+      "horizontalAlign": "left"
+    }
   },
   "rich-text#condiciones": {
     "props": {
-      "text": "CONDICIONES"
+      "text": "CONDICIONES",
+      "blockClass": "text__condiciones"
     }
   },
   "disclosure-content#condiciones": {
@@ -261,13 +301,37 @@
   },
   "disclosure-trigger#worldofdiesel": {
     "children": [
-      "disclosure-state-indicator",
+      "flex-layout.row#trigger__disclosure--worldofdiesel"
+      // "disclosure-state-indicator",
+      // "rich-text#worldofdiesel"
+    ],
+    "props": {
+      "blockClass": "disclosure__worldofdiesel",
+      "as": "span"
+    }
+  },
+  "flex-layout.row#trigger__disclosure--worldofdiesel": {
+    "children": [
+      "flex-layout.col#text__worldofdiesel--disclosure",
+      "flex-layout.col#state__indicator--disclosure"
+    ],
+    "props": {
+      "blockClass": "container__state--disclosure"
+    }
+  },
+  "flex-layout.col#text__worldofdiesel--disclosure": {
+    "children": [
       "rich-text#worldofdiesel"
-    ]
+    ],
+    "props": {
+      "blockClass": "container--texto__worldofdiesel",
+      "horizontalAlign": "left"
+    }
   },
   "rich-text#worldofdiesel": {
     "props": {
-      "text": "WORLD OF DIESEL"
+      "text": "WORLD OF DIESEL",
+      "blockClass": "text__worldofdiesel"
     }
   },
   "disclosure-content#worldofdiesel": {
