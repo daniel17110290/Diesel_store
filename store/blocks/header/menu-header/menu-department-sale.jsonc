@@ -19,7 +19,10 @@
     "submenu#department__sale": {
         "children": [
             "menu#menu__department--sale"
-        ]
+        ],
+        "props": {
+            "width": "100%"
+        }
     },
     "menu#menu__department--sale": {
         "children": [

@@ -10,25 +10,77 @@
   },
   "header-layout.desktop#header__desktop": {
     "children": [
-      "header-row#header__Desktop--top",
-      "header-force-center#header__logo--middle"
+      "flex-layout.row#banner__notification",
+      "header-row#header__Desktop--top"
     ],
     "props": {
-      "blockClass": "header__top--desktop"
+      "blockClass": "header__top--desktop",
+      "sticky": "true"
     }
   },
   "header-row#header__Desktop--top": {
     "title": "header content",
     "children": [
-      "menu#header__menu--departments",
+      "flex-layout.row#menu__header--departments",
+      "header-force-center#header__logo--middle",
       "header-spacer",
-      "modal-trigger#header__search--desktop",
-      "login#header__login",
-      "link#header__desktop--favorites",
+      "flex-layout.row#info__header--all"
+    ],
+    "props": {
+      "blockClass": "header__row--desktop",
+      "sticky": "true"
+    }
+  },
+  "flex-layout.row#info__header--all": {
+    "children": [
+      "flex-layout.col#modal__search--header",
+      "flex-layout.col#login__header",
+      "flex-layout.col#link__favorites--header",
+      "flex-layout.col#minicart__header"
+    ],
+    "props": {
+      "blockClass": "container__header--info",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#modal__search--header": {
+    "children": [
+      "modal-trigger#header__search--desktop"
+    ],
+    "props": {
+      "blockClass": "container__info--header",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#login__header": {
+    "children": [
+      "login#header__login"
+    ],
+    "props": {
+      "blockClass": "container__info--header",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#link__favorites--header": {
+    "children": [
+      "link#header__desktop--favorites"
+    ],
+    "props": {
+      "blockClass": "container__info--header",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#minicart__header": {
+    "children": [
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "header__row--desktop"
+      "blockClass": "container__info--header",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
     }
   },
   "link#header__desktop--favorites": {

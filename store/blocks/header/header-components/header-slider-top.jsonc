@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#banner__notification": {
+    "children": [
+      "notification.bar#home"
+    ],
+    "props": {
+      "blockClass": "notification__banner--header"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "ENVIO GRATIS POR COMPRAS SUPERIORES A $450.000",
+      "blockClass": "notification__message"
+    }
+  }
+}

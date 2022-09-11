@@ -1,6 +1,15 @@
 .flexRowContent--container__payments--methods{
     background: black;
     text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 10px
+   
+    
+}
+.flexRow--container__payments--methods{
+    /* border-radius: 20px;
+    overflow: auto; */
 }
 .flexColChild--link__localizador--tienda{
     margin-top: 2rem;
@@ -11,6 +20,8 @@
 .flexColChild--container__sections--footer{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem
     
 }
 .flexRow--container__info--section{
@@ -22,4 +33,10 @@
 }
 .flexRowContent--payment__methods--all{
     gap: 2rem;
+    /* flex-wrap: wrap;
+    justify-content: center; */
+}
+.flexColChild--container__payment--methods{
+    height: 60px !important;
+    width: 40px;
 }

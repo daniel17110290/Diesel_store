@@ -1,3 +1,8 @@
 .logoImage--logo__top--middle {
     background:white;
 }
+.notificationBarInner--notification__message{
+    justify-content: left;
+    font-size: 11px;
+    background-color: black;
+}
