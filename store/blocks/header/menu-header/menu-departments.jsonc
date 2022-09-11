@@ -1,10 +1,22 @@
 {
-    "menu#header__menu--departments": {
-        "title": "menu header departments",
-        "children": [
-            "menu-item#department__man",
-            "menu-item#department__woman",
-            "menu-item#department__sale"
-        ]
+  "flex-layout.row#menu__header--departments": {
+    "children": [
+      "menu#header__menu--departments"
+    ],
+    "props": {
+      "blockClass": "container__menu"
     }
+  },
+  "menu#header__menu--departments": {
+    "title": "menu header departments",
+    "children": [
+      "menu-item#department__man",
+      "menu-item#department__woman",
+      "menu-item#department__sale"
+    ],
+    "props": {
+      "blockClass": "menu__department",
+      "experimentalOptimizeRendering": true
+    }
+  }
 }

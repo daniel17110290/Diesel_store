@@ -3,7 +3,6 @@
     "children": [
       "flex-layout.col#text__metodos--pago",
       "flex-layout.col#images__bancos--pago"
-      //"flex-layout.col#images__bancos--pago"
     ],
     "props": {
       "blockClass": "container__payments--methods"
@@ -15,7 +14,7 @@
     ],
     "props": {
       "blockClass": "texto__metodos--pago",
-      "width": "20%",
+      "width": "15%",
       "horizontalAlign": "center",
       "verticalAlign": "middle"
     }
@@ -33,7 +32,7 @@
     ],
     "props": {
       "blockClass": "container__payment--method",
-      "width": "80%",
+      "width": "85%",
       "horizontalAlign": "center",
       "verticalAlign": "middle"
     }
@@ -59,12 +58,30 @@
   },
   "flex-layout.col#payment__methods--pse": {
     "children": [
-      "image#pse__banco--footer",
+      "flex-layout.row#image__payment--pse",
+      "flex-layout.row#text__payment--pse"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--pse": {
+    "children": [
+      "image#pse__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--pse",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--pse": {
+    "children": [
       "rich-text#pse__payment--method"
     ],
     "props": {
-      "blockClass": "container__pse--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--pse",
       "horizontalAlign": "center"
     }
   },
@@ -73,7 +90,7 @@
       "text": "PSE",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "image#pse__banco--footer": {
@@ -82,7 +99,7 @@
       "link": {
         "url": "/about-us"
       },
-      "alt": "PSE",
+      "alt": "image__payment--method",
       "maxWidth": 50,
       "maxHeight": 50,
       "blockClass": "pse"
@@ -90,12 +107,30 @@
   },
   "flex-layout.col#payment__methods--american": {
     "children": [
-      "image#american__banco--footer",
+      "flex-layout.row#image__payment--american",
+      "flex-layout.row#text__payment--american"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--american": {
+    "children": [
+      "image#american__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--american",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--american": {
+    "children": [
       "rich-text#american__payment--method"
     ],
     "props": {
-      "blockClass": "container__american--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--american",
       "horizontalAlign": "center"
     }
   },
@@ -104,7 +139,7 @@
       "text": "American\n Express",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "image#american__banco--footer": {
@@ -116,17 +151,35 @@
       "alt": "American",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "american"
+      "blockClass": "image__payment--method"
     }
   },
   "flex-layout.col#payment__methods--diners": {
     "children": [
-      "image#diners__banco--footer",
+      "flex-layout.row#image__payment--diners",
+      "flex-layout.row#text__payment--diners"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--diners": {
+    "children": [
+      "image#diners__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--diners",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--diners": {
+    "children": [
       "rich-text#diners__payment--method"
     ],
     "props": {
-      "blockClass": "container__diners--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--diners",
       "horizontalAlign": "center"
     }
   },
@@ -139,7 +192,7 @@
       "alt": "Diners",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "diners"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#diners__payment--method": {
@@ -147,17 +200,35 @@
       "text": "Diners Club",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--visa": {
     "children": [
-      "image#visa__banco--footer",
+      "flex-layout.row#image__payment--visa",
+      "flex-layout.row#text__payment--visa"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--visa": {
+    "children": [
+      "image#visa__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--visa",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--visa": {
+    "children": [
       "rich-text#visa__payment--method"
     ],
     "props": {
-      "blockClass": "container__visa--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--visa",
       "horizontalAlign": "center"
     }
   },
@@ -170,7 +241,7 @@
       "alt": "Visa",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "visa"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#visa__payment--method": {
@@ -178,17 +249,35 @@
       "text": "Visa",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--mastercard": {
     "children": [
-      "image#mastercard__banco--footer",
+      "flex-layout.row#image__payment--mastercard",
+      "flex-layout.row#text__payment--mastercard"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--mastercard": {
+    "children": [
+      "image#mastercard__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--mastercard",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--mastercard": {
+    "children": [
       "rich-text#mastercard__payment--method"
     ],
     "props": {
-      "blockClass": "container__mastercard--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--mastercard",
       "horizontalAlign": "center"
     }
   },
@@ -201,7 +290,7 @@
       "alt": "Mastercard",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "mastercard"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#mastercard__payment--method": {
@@ -209,17 +298,35 @@
       "text": "Mastercard",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--efecty": {
     "children": [
-      "image#efecty__banco--footer",
+      "flex-layout.row#image__payment--efecty",
+      "flex-layout.row#text__payment--efecty"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--efecty": {
+    "children": [
+      "image#efecty__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--efecty",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--efecty": {
+    "children": [
       "rich-text#efecty__payment--method"
     ],
     "props": {
-      "blockClass": "container__efecty--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--efecty",
       "horizontalAlign": "center"
     }
   },
@@ -232,7 +339,7 @@
       "alt": "Efecty",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "efecty"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#efecty__payment--method": {
@@ -240,17 +347,35 @@
       "text": "Efecty",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--sistecredito": {
     "children": [
-      "image#sistecredito__banco--footer",
+      "flex-layout.row#image__payment--sistecredito",
+      "flex-layout.row#text__payment--sistecredito"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--sistecredito": {
+    "children": [
+      "image#sistecredito__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--sistecredito",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--sistecredito": {
+    "children": [
       "rich-text#sistecredito__payment--method"
     ],
     "props": {
-      "blockClass": "container__sistecredito--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--sistecredito",
       "horizontalAlign": "center"
     }
   },
@@ -263,7 +388,7 @@
       "alt": "Sistecredito",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "sistecredito"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#sistecredito__payment--method": {
@@ -271,17 +396,35 @@
       "text": "Sistecredito",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--mercado-pago": {
     "children": [
-      "image#mercado-pago__banco--footer",
+      "flex-layout.row#image__payment--mercado-pago",
+      "flex-layout.row#text__payment--mercado-pago"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--mercado-pago": {
+    "children": [
+      "image#mercado-pago__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--mercado-pago",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--mercado-pago": {
+    "children": [
       "rich-text#mercado-pago__payment--method"
     ],
     "props": {
-      "blockClass": "container__mercado-pago--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--mercado-pago",
       "horizontalAlign": "center"
     }
   },
@@ -294,7 +437,7 @@
       "alt": "Mercado-pago",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "mercado_pago"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#mercado-pago__payment--method": {
@@ -302,17 +445,35 @@
       "text": "Mercado\n Pago",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--nequi": {
     "children": [
-      "image#nequi__banco--footer",
+      "flex-layout.row#image__payment--nequi",
+      "flex-layout.row#text__payment--nequi"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--nequi": {
+    "children": [
+      "image#nequi__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--nequi",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--nequi": {
+    "children": [
       "rich-text#nequi__payment--method"
     ],
     "props": {
-      "blockClass": "container__nequi--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--nequi",
       "horizontalAlign": "center"
     }
   },
@@ -325,7 +486,7 @@
       "alt": "Nequi",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "nequi"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#nequi__payment--method": {
@@ -333,17 +494,35 @@
       "text": "Nequi",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--cupon": {
     "children": [
-      "image#cupon__banco--footer",
+      "flex-layout.row#image__payment--cupon",
+      "flex-layout.row#text__payment--cupon"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--cupon": {
+    "children": [
+      "image#cupon__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--cupon",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--cupon": {
+    "children": [
       "rich-text#cupon__payment--method"
     ],
     "props": {
-      "blockClass": "container__cupon--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--cupon",
       "horizontalAlign": "center"
     }
   },
@@ -356,7 +535,7 @@
       "alt": "Cupon",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "cupon"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#cupon__payment--method": {
@@ -364,17 +543,35 @@
       "text": "Cupon De\n Descuento",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--addi": {
     "children": [
-      "image#addi__banco--footer",
+      "flex-layout.row#image__payment--addi",
+      "flex-layout.row#text__payment--addi"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--addi": {
+    "children": [
+      "image#addi__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--addi",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--addi": {
+    "children": [
       "rich-text#addi__payment--method"
     ],
     "props": {
-      "blockClass": "container__addi--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--addi",
       "horizontalAlign": "center"
     }
   },
@@ -387,7 +584,7 @@
       "alt": "Addi",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "addi"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#addi__payment--method": {
@@ -395,17 +592,35 @@
       "text": "ADDI",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#payment__methods--bancolombia": {
     "children": [
-      "image#bancolombia__banco--footer",
+      "flex-layout.row#image__payment--bancolombia",
+      "flex-layout.row#text__payment--bancolombia"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--bancolombia": {
+    "children": [
+      "image#bancolombia__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--bancolombia",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--bancolombia": {
+    "children": [
       "rich-text#bancolombia__payment--method"
     ],
     "props": {
-      "blockClass": "container__bancolombia--method",
-      "verticalAlign": "middle",
+      "blockClass": "text__payment--bancolombia",
       "horizontalAlign": "center"
     }
   },
@@ -418,7 +633,7 @@
       "alt": "Bancolombia",
       "maxWidth": 50,
       "maxHeight": 50,
-      "blockClass": "bancolombia"
+      "blockClass": "image__payment--method"
     }
   },
   "rich-text#bancolombia__payment--method": {
@@ -426,7 +641,7 @@
       "text": "Boton\n Bancolombia",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "textPosition": "CENTER"
     }
   }
 }
