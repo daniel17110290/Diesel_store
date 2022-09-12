@@ -3,41 +3,104 @@
     "blocks": [
       "flex-layout.row#about-us__section--one",
       "flex-layout.row#about-us__section--two",
-      "flex-layout.row#about-us__section--three"
+      "flex-layout.row#about-us__section--three",
+      "flex-layout.row#about-us__section--four"
     ]
   },
   "flex-layout.row#about-us__section--one": {
     "children": [
       "flex-layout.col#about-us__section--one"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__about--us",
+      "horizontalAlign": "center"
+    }
   },
   "flex-layout.row#about-us__section--two": {
     "children": [
       "flex-layout.col#about-us__section--two"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__info--about-us",
+      "horizontalAlign": "center"
+    }
   },
   "flex-layout.row#about-us__section--three": {
     "children": [
       "flex-layout.col#about-us__section--three"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__about--us",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#about-us__section--four": {
+    "children": [
+      "flex-layout.col#about-us__section--four"
+    ],
+    "props": {
+      "blockClass": "container__about--us",
+      "horizontalAlign": "center"
+    }
   },
   "flex-layout.col#about-us__section--one": {
     "children": [
       "rich-text#section__one--title"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__text--about-diesel",
+      "width": "60%"
+    }
   },
   "flex-layout.col#about-us__section--two": {
-    "children": [],
+    "children": [
+      "rich-text#text__info--about-us"
+    ],
     "props": {
-      "blockClass": "product__section-two--about"
+      "blockClass": "container__text--info",
+      "width": "60%"
     }
   },
   "flex-layout.col#about-us__section--three": {
-    "children": []
+    "children": [
+      "rich-text#text__info--group"
+    ],
+    "props": {
+      "blockClass": "container__text--about-diesel",
+      "width": "60%"
+    }
+  },
+  "flex-layout.col#about-us__section--four": {
+    "children": [
+      "rich-text#section__four--info"
+    ],
+    "props": {
+      "blockClass": "container__text--info",
+      "width": "60%"
+    }
   },
   "rich-text#section__one--title": {
     "props": {
-      "text": "# Acerca de nosotros"
+      "text": "## ABOUT DIESEL",
+      "blockClass": "text__about--diesel"
+    }
+  },
+  "rich-text#text__info--about-us": {
+    "props": {
+      "text": "Diesel is an innovative international lifestyle company, producing a wide-ranging collection of jeans, clothing and accessories. Since its creation in 1978, Diesel has experienced extraordinary growth and has evolved from being a leading pioneer in denim into the world of premium casual wear, becoming a true alternative to the established luxury market. Diesel’s philosophy has remained the same as the day of its creation: Renzo Rosso had envisaged a brand that would stand for passion, individuality and self-expression. Diesel thrives on change: it produces no less than 3,000 new products every season and each one derives from a process of enormous creative freedom, ensuring constant innovation. The collections include: Diesel, Diesel Black Gold (the contemporary line designed by Andreas Melbostad) and Diesel Kid. Diesel is not just apparel and denim: it’s a lifestyle, which has been interpreted through licenses (under the creative leadership of Andrea Rosso) with leading companies to develop watches and jewellery (with Fossil), eyewear (with Marcolin), fragrances (with L’Oréal), helmets (with AGV), headphones (with Monster), bikes (with Pinarello), strollers (with Bugaboo) and a complete home collection (with Foscarini, Moroso, Zucchi, Seletti and Scavolini).Diesel Manifesto: We decode the world around us, take it apart and unlock what we thought we knew. We see differently and unite with those who see it too. Draw your own path. March in the streets with us. Especially the ones our streets are on.",
+      "blockClass": "text__info--about-us"
+    }
+  },
+  "rich-text#text__info--group": {
+    "props": {
+      "text": "## ABOUT OTB GROUP",
+      "blockClass": "text__about--diesel"
+    }
+  },
+  "rich-text#section__four--info": {
+    "props": {
+      "text": "OTB is the parent company of some of the most iconic fashion brands like Diesel, Maison Margiela, Marni, Viktor&Rolf, and state-of-the-art companies like Staff International, and Brave Kid. Our brands are globally recognized as the brands of unconventional, individual consumers. OTB reveals its brands’ true essence and character:innovative and iconic, unique and daring. Carrying this ambitious vision into the future, our brands not only change the way consumers see themselves but also the world around them. Chaired by Renzo Rosso, the Italian entrepreneur who founded Diesel, the group embodies his spirit and vision today. OTB believes in pushing the boundaries of fashion and lifestyle, offering a portfolio of global brands to a new breed of consumer – those who challenge traditional perceptions, preferring to embrace fashion on their own. Standing for “Only the Brave”, even the name OTB reflects the group’s vision and values. Passion and creativity. And a pragmatic approach to building global brands.",
+      "blockClass": "text__info--about-us"
     }
   }
 }
