@@ -12,9 +12,10 @@
   },
   "whatsapp-button": {
     "props": {
-      "logo": "assets/images/whatsapp.png",
+      "logo": "assets/images/whatsapp2.png",
       "phone": "3135649874",
-      "message": "diesel strong"
+      "message": "diesel strong",
+      "blockClass": "whatsapp__button--logo"
     }
   }
 }
