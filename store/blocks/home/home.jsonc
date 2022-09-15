@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "whatsapp-button",
+      "list-context.bullet-group",
       "flex-layout.row#home__banner--one",
       "flex-layout.row#home__banner--two",
       "flex-layout.row#home__banner--three",
@@ -16,6 +17,34 @@
       "phone": "3135649874",
       "message": "diesel strong",
       "blockClass": "whatsapp__button--logo"
+    }
+  },
+  "list-context.bullet-group": {
+    "title": "mi context de lista de bullets",
+    "props": {
+      "bullets": [
+        {
+          "image": "miimagen.png",
+          "titleBullet": "hello word 1",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "miimagen.png",
+          "titleBullet": "hello word 2",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "miimagen.png",
+          "titleBullet": "hello word 3",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
     }
   }
 }
