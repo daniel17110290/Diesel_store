@@ -1,11 +1,75 @@
 {
   "store.custom#about-us": {
     "blocks": [
+      "list-context.bullet-group",
       "flex-layout.row#about-us__section--one",
       "flex-layout.row#about-us__section--two",
       "flex-layout.row#about-us__section--three",
       "flex-layout.row#about-us__section--four"
     ]
+  },
+  "list-context.bullet-group": {
+    "title": "mi context de lista de bullets",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/images/Reloj-Digital-Para-Hombre.png",
+          "titleBullet": "Rejoles",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/fragancia.png",
+          "titleBullet": "Fragancias",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/Reloj-Digital-Para-Hombre.png",
+          "titleBullet": "Rejoles",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/fragancia.png",
+          "titleBullet": "Fragancias",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/Reloj-Digital-Para-Hombre.png",
+          "titleBullet": "Rejoles",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/fragancia.png",
+          "titleBullet": "Fragancias",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite": true,
+      "blockClass": "slider__images--bullets"
+    }
   },
   "flex-layout.row#about-us__section--one": {
     "children": [
