@@ -1,0 +1,11 @@
+.bullet_item--link--slider__images--bullets{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Poppins;
+    font-size: 14px;
+}
+.bullet_item--image--slider__images--bullets{
+    width: 80px;
+}

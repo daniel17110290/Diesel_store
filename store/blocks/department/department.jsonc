@@ -92,7 +92,10 @@
       "flex-layout.row#cartbutton__product",
       "flex-layout.row#price__product",
       "modal-trigger#global__quick-view"
-    ]
+    ],
+    "props": {
+      "blockCLass": "container__summary--shelf"
+    }
   },
   "flex-layout.row#add__list--button": {
     "children": [
@@ -131,7 +134,10 @@
   "flex-layout.row#cartbutton__product": {
     "children": [
       "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__add-to-cart"
+    }
   },
   "flex-layout.row#price__product": {
     "children": [
