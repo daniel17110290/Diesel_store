@@ -56,6 +56,20 @@
           "link": {
             "url": "/"
           }
+        },
+        {
+          "image": "assets/images/Reloj-Digital-Para-Hombre.png",
+          "titleBullet": "Rejoles",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/fragancia.png",
+          "titleBullet": "Fragancias",
+          "link": {
+            "url": "/"
+          }
         }
       ]
     }
