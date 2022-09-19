@@ -5,7 +5,8 @@
       "flex-layout.row#about-us__section--one",
       "flex-layout.row#about-us__section--two",
       "flex-layout.row#about-us__section--three",
-      "flex-layout.row#about-us__section--four"
+      "flex-layout.row#about-us__section--four",
+      "pdf-reader"
     ]
   },
   "list-context.bullet-group": {
