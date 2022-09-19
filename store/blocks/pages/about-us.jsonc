@@ -5,7 +5,8 @@
       "flex-layout.row#about-us__section--one",
       "flex-layout.row#about-us__section--two",
       "flex-layout.row#about-us__section--three",
-      "flex-layout.row#about-us__section--four"
+      "flex-layout.row#about-us__section--four",
+      "pdf-reader"
     ]
   },
   "list-context.bullet-group": {
@@ -15,6 +16,20 @@
     ],
     "props": {
       "bullets": [
+        {
+          "image": "assets/images/Reloj-Digital-Para-Hombre.png",
+          "titleBullet": "Rejoles",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/fragancia.png",
+          "titleBullet": "Fragancias",
+          "link": {
+            "url": "/"
+          }
+        },
         {
           "image": "assets/images/Reloj-Digital-Para-Hombre.png",
           "titleBullet": "Rejoles",

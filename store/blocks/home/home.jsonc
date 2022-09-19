@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "whatsapp-button",
+      "quick-order",
       "flex-layout.row#home__banner--one",
       "flex-layout.row#home__banner--two",
       "flex-layout.row#home__banner--three",
@@ -9,6 +10,13 @@
       "flex-layout.row#home__banner--five",
       "flex-layout.row#card__home--store"
     ]
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/cita_medica.pdf",
+      "width": 500,
+      "height": 800
+    }
   },
   "whatsapp-button": {
     "props": {
