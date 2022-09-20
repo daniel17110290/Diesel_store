@@ -1,12 +1,12 @@
 {
   "store.custom#about-us": {
     "blocks": [
-      "list-context.bullet-group",
       "flex-layout.row#about-us__section--one",
       "flex-layout.row#about-us__section--two",
       "flex-layout.row#about-us__section--three",
       "flex-layout.row#about-us__section--four",
-      "pdf-reader"
+      "pdf-reader",
+      "flex-layout.row#about-us__section--bullets"
     ]
   },
   "list-context.bullet-group": {
@@ -180,6 +180,31 @@
     "props": {
       "text": "OTB is the parent company of some of the most iconic fashion brands like Diesel, Maison Margiela, Marni, Viktor&Rolf, and state-of-the-art companies like Staff International, and Brave Kid. Our brands are globally recognized as the brands of unconventional, individual consumers. OTB reveals its brands’ true essence and character:innovative and iconic, unique and daring. Carrying this ambitious vision into the future, our brands not only change the way consumers see themselves but also the world around them. Chaired by Renzo Rosso, the Italian entrepreneur who founded Diesel, the group embodies his spirit and vision today. OTB believes in pushing the boundaries of fashion and lifestyle, offering a portfolio of global brands to a new breed of consumer – those who challenge traditional perceptions, preferring to embrace fashion on their own. Standing for “Only the Brave”, even the name OTB reflects the group’s vision and values. Passion and creativity. And a pragmatic approach to building global brands.",
       "blockClass": "text__info--about-us"
+    }
+  },
+  "flex-layout.row#about-us__section--bullets": {
+    "children": [
+      "flex-layout.col#about-us__section--bullets"
+    ],
+    "props": {
+      "blockClass": "section__bullets"
+    }
+  },
+  "flex-layout.col#about-us__section--bullets": {
+    "children": [
+      "rich-text#title__more--products",
+      "list-context.bullet-group"
+    ],
+    "props": {
+      "blockClass": "container__section--bullets"
+    }
+  },
+  "rich-text#title__more--products": {
+    "props": {
+      "text": "Conoce nuestros productos",
+      "textColor": "magenta",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   }
 }
