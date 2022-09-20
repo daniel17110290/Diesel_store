@@ -11,13 +11,6 @@
       "flex-layout.row#card__home--store"
     ]
   },
-  "pdf-reader": {
-    "props": {
-      "pdfUrl": "assets/documents/cita_medica.pdf",
-      "width": 500,
-      "height": 800
-    }
-  },
   "whatsapp-button": {
     "props": {
       "logo": "assets/images/whatsapp2.png",
