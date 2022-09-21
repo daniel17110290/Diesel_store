@@ -3,6 +3,7 @@
     "blocks": [
       "whatsapp-button",
       "quick-order",
+      "custom-grid",
       "flex-layout.row#home__banner--one",
       "flex-layout.row#home__banner--two",
       "flex-layout.row#home__banner--three",
@@ -10,6 +11,40 @@
       "flex-layout.row#home__banner--five",
       "flex-layout.row#card__home--store"
     ]
+  },
+  "custom-grid": {
+    "children": [
+      "rich-text#custom-grid-1",
+      "rich-text#custom-grid-2",
+      "rich-text#custom-grid-3",
+      "rich-text#custom-grid-4",
+      "rich-text#custom-grid-5"
+    ]
+  },
+  "rich-text#custom-grid-1": {
+    "props": {
+      "text": "grilla 1"
+    }
+  },
+  "rich-text#custom-grid-2": {
+    "props": {
+      "text": "grilla 2"
+    }
+  },
+  "rich-text#custom-grid-3": {
+    "props": {
+      "text": "grilla 3"
+    }
+  },
+  "rich-text#custom-grid-4": {
+    "props": {
+      "text": "grilla 4"
+    }
+  },
+  "rich-text#custom-grid-5": {
+    "props": {
+      "text": "grilla 5"
+    }
   },
   "whatsapp-button": {
     "props": {

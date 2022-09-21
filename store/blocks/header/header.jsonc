@@ -86,7 +86,7 @@
   "link#header__desktop--favorites": {
     "props": {
       "label": "favoritos",
-      "href": "/",
+      "href": "/pdf-reader",
       "rel": "favorites",
       "blockClass": "button__header--favorites"
     }
