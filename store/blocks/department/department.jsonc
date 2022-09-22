@@ -133,6 +133,7 @@
   },
   "flex-layout.row#cartbutton__product": {
     "children": [
+      //"product-summary-buy-button"
       "add-to-cart-button"
     ],
     "props": {
@@ -141,8 +142,8 @@
   },
   "flex-layout.row#price__product": {
     "children": [
-      "product-summary-price",
-      "product-selling-price"
+      "product-summary-price"
+      //"product-selling-price"
     ]
   },
   "modal-trigger#global__quick-view": {

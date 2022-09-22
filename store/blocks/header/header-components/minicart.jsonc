@@ -2,7 +2,7 @@
   "minicart.v2": {
     "props": {
       //"variation": "popup",
-      "itemCountMode": "totalAvailable",
+      "itemCountMode": "total",
       "quantityDisplay": "always",
       "MinicartIcon": "icon-cart"
     },
