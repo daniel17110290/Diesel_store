@@ -14,7 +14,8 @@
     "modal-layout#header__search": {
         "children": [
             "modal-header",
-            "department-search"
+            "search-bar#search"
+            //"department-search"
         ],
         "props": {
             "blockClass": "modal__search"
@@ -24,13 +25,13 @@
         "props": {
             "iconCloseSize": 20
         }
+    },
+    "search-bar#search": {
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
     }
-    // "search-bar#search": {
-    //     "blocks": [
-    //         "autocomplete-result-list.v2"
-    //     ],
-    //     "props": {
-    //         "openAutocompleteOnFocus": true
-    //     }
-    // }
 }
