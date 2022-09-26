@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#home__banner--two-mobile": {
+    "children": [
+      "video#banner2__home--mobile"
+    ]
+  },
+  "video#banner2__home--mobile": {
+    "props": {
+      "width": "100%",
+      "height": "200px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=aYxG1ASrYKo",
+      "blockClass": "video__banner2--mobile"
+    }
+  }
+}

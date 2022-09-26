@@ -1,0 +1,18 @@
+{
+  "flex-layout.col#link__ship": {
+    "children": [
+      "link#ship__to"
+    ],
+    "props": {
+      "blockClass": "link__ship--to"
+    }
+  },
+  "link#ship__to": {
+    "title": "link__ship--to",
+    "props": {
+      "label": "SHIP TO",
+      "href": "/about-us",
+      "blockClass": "link__ship--to"
+    }
+  }
+}

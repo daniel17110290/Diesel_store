@@ -1,0 +1,7 @@
+.flexRow--list__mini--cart{
+  padding: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;  
+  border: 1px solid black;
+}

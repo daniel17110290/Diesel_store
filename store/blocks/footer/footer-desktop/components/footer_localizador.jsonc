@@ -1,0 +1,18 @@
+{
+  "flex-layout.col#link__localozador": {
+    "children": [
+      "link#localizador__tienda"
+    ],
+    "props": {
+      "blockClass": "link__localizador--tienda"
+    }
+  },
+  "link#localizador__tienda": {
+    "title": "link__localozador--tienda",
+    "props": {
+      "label": "LOCALIZADOR DE TIENDAS",
+      "href": "/about-us",
+      "blockClass": "localozador--tienda"
+    }
+  }
+}

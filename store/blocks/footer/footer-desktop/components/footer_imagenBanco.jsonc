@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#seccion__images": {
+    "children": [
+      "image#propaganda__bancos"
+    ],
+    "props": {
+      "blockClass": "imagen__propaganda"
+    }
+  },
+  "image#propaganda__bancos": {
+    "props": {
+      "src": "assets/images/supported_methods_footer-diesel-.jpg",
+      "blockClass": "footer__image--propaganda"
+    }
+  }
+}

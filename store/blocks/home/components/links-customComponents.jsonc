@@ -1,0 +1,73 @@
+{
+  "flex-layout.row#custom__components--links": {
+    "children": [
+      "flex-layout.col#pdf__reader--custom",
+      "flex-layout.col#quick__Order--custom",
+      "flex-layout.col#department__search--custom",
+      "flex-layout.col#bullets__images--custom"
+    ],
+    "props": {
+      "blockClass": "container__links--custom"
+    }
+  },
+  "flex-layout.col#pdf__reader--custom": {
+    "children": [
+      "link#pdf__reader--custom"
+    ],
+    "props": {
+      "blockClass": "container__link--customComponents"
+    }
+  },
+  "flex-layout.col#quick__Order--custom": {
+    "children": [
+      "link#quick__Order--custom"
+    ],
+    "props": {
+      "blockClass": "container__link--customComponents"
+    }
+  },
+  "flex-layout.col#department__search--custom": {
+    "children": [
+      "link#department-search--custom"
+    ],
+    "props": {
+      "blockClass": "container__link--customComponents"
+    }
+  },
+  "flex-layout.col#bullets__images--custom": {
+    "children": [
+      "link#bullets__images--custom"
+    ],
+    "props": {
+      "blockClass": "container__link--customComponents"
+    }
+  },
+  "link#pdf__reader--custom": {
+    "props": {
+      "href": "/pdf-reader",
+      "label": "Pdf-Reader",
+      "blockClass": "link__custom--components"
+    }
+  },
+  "link#quick__Order--custom": {
+    "props": {
+      "href": "/quick-order",
+      "label": "Quik-Order",
+      "blockClass": "link__custom--components"
+    }
+  },
+  "link#department-search--custom": {
+    "props": {
+      "href": "/department-search",
+      "label": "department-search",
+      "blockClass": "link__custom--components"
+    }
+  },
+  "link#bullets__images--custom": {
+    "props": {
+      "href": "/custom-grid",
+      "label": "Grids",
+      "blockClass": "link__custom--components"
+    }
+  }
+}

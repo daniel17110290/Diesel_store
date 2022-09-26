@@ -1,0 +1,74 @@
+{
+  "menu#ayuda__container": {
+    "children": [
+      "menu-item#Mis__pedidos",
+      "menu-item#Guia__tallas",
+      "menu-item#Envio",
+      "menu-item#Reembolso",
+      "menu-item#Contactanos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#Mis__pedidos": {
+    "props": {
+      "id": "menu-pedidos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "tagTitle": "Mis Pedidos",
+        "text": "Mis Pedidos"
+      }
+    }
+  },
+  "menu-item#Envio": {
+    "props": {
+      "id": "menu-envio",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "tagTitle": "Envio",
+        "text": "Envio"
+      }
+    }
+  },
+  "menu-item#Reembolso": {
+    "props": {
+      "id": "menu-reembolso",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "tagTitle": "Reembolso",
+        "text": "Reembolso"
+      }
+    }
+  },
+  "menu-item#Contactanos": {
+    "props": {
+      "id": "menu-contactanos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "tagTitle": "Contactanos",
+        "text": "Contactanos"
+      }
+    }
+  },
+  "menu-item#Guia__tallas": {
+    "props": {
+      "id": "menu-guia-tallas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "tagTitle": "Guia de tallas",
+        "text": "Guia de tallas"
+      }
+    }
+  }
+}

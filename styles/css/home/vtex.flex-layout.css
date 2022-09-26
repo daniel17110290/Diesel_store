@@ -28,3 +28,16 @@
 .flexCol--container__condiciones{
     margin-top: 1rem;
 }
+.flexRowContent--container__links--custom{
+    padding: 1rem 4rem 2rem;
+    align-items: center;
+}
+.flexCol--container__link--customComponents{
+  align-items: center;
+}
+.flexRowContent--container__card--mobile{
+    margin-bottom: 15px
+}
+.flexCol--container__cards--mobile1{
+    padding: 3rem 2rem 3rem;
+}

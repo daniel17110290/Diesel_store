@@ -4,5 +4,14 @@
 	},
 	"store.custom#pdf-reader": {
 		"path": "/pdf-reader"
+	},
+	"store.custom#quick-order": {
+		"path": "/quick-order"
+	},
+	"store.custom#department-search": {
+		"path": "/department-search"
+	},
+	"store.custom#custom-grid": {
+		"path": "/custom-grid"
 	}
 }

@@ -1,85 +1,85 @@
 {
-    "flex-layout.row#card__home--store": {
-        "title": "info-card__home--store",
-        "children": [
-            "flex-layout.col#card--one",
-            "flex-layout.col#card--two",
-            "flex-layout.col#card--three"
-        ],
-        "props": {
-            "blockClass": "container__cards--home"
-        }
-    },
-    "flex-layout.col#card--one": {
-        "title": "card--one",
-        "children": [
-            "image#card__relojes--home",
-            "link#card__relojes"
-        ],
-        "props": {
-            "blockClass": "container__card-one"
-        }
-    },
-    "image#card__relojes--home": {
-        "props": {
-            "src": "assets/images/image__card--relojes.jpg",
-            "blockClass": "image__card--relojes"
-        }
-    },
-    "link#card__relojes": {
-        "title": "link__relojes--card",
-        "props": {
-            "label": "RELOJES",
-            "href": "/",
-            "blockClass": "link__relojes--card"
-        }
-    },
-    "flex-layout.col#card--two": {
-        "title": "card--two",
-        "children": [
-            "image#card__intimate--home",
-            "link#card__intimate"
-        ],
-        "props": {
-            "blockClass": "container__card-two"
-        }
-    },
-    "image#card__intimate--home": {
-        "props": {
-            "src": "assets/images/image__card--intimate.jpg",
-            "blockClass": "image__card--intimate"
-        }
-    },
-    "link#card__intimate": {
-        "title": "link__intimate--card",
-        "props": {
-            "label": "INTIMATE",
-            "href": "/",
-            "blockClass": "link__intimate--card"
-        }
-    },
-    "flex-layout.col#card--three": {
-        "title": "card--three",
-        "children": [
-            "image#card__fragancias--home",
-            "link#card__fragancias"
-        ],
-        "props": {
-            "blockClass": "container_card-three"
-        }
-    },
-    "image#card__fragancias--home": {
-        "props": {
-            "src": "assets/images/image__card--fragancias.jpg",
-            "blockClass": "image__card--fragancias"
-        }
-    },
-    "link#card__fragancias": {
-        "title": "link__fragancias--card",
-        "props": {
-            "label": "FRAGANCIAS",
-            "href": "/",
-            "blockClass": "link__fragancias--card"
-        }
+  "flex-layout.row#card__home--store": {
+    "title": "info-card__home--store",
+    "children": [
+      "flex-layout.col#card--one",
+      "flex-layout.col#card--two",
+      "flex-layout.col#card--three"
+    ],
+    "props": {
+      "blockClass": "container__cards--home"
     }
+  },
+  "flex-layout.col#card--one": {
+    "title": "card--one",
+    "children": [
+      "image#card__relojes--home",
+      "link#card__relojes"
+    ],
+    "props": {
+      "blockClass": "container__card-one"
+    }
+  },
+  "image#card__relojes--home": {
+    "props": {
+      "src": "assets/images/image__card--relojes.jpg",
+      "blockClass": "image__card--relojes"
+    }
+  },
+  "link#card__relojes": {
+    "title": "link__relojes--card",
+    "props": {
+      "label": "RELOJES",
+      "href": "/",
+      "blockClass": "link__relojes--card"
+    }
+  },
+  "flex-layout.col#card--two": {
+    "title": "card--two",
+    "children": [
+      "image#card__intimate--home",
+      "link#card__intimate"
+    ],
+    "props": {
+      "blockClass": "container__card-two"
+    }
+  },
+  "image#card__intimate--home": {
+    "props": {
+      "src": "assets/images/image__card--intimate.jpg",
+      "blockClass": "image__card--intimate"
+    }
+  },
+  "link#card__intimate": {
+    "title": "link__intimate--card",
+    "props": {
+      "label": "INTIMATE",
+      "href": "/",
+      "blockClass": "link__intimate--card"
+    }
+  },
+  "flex-layout.col#card--three": {
+    "title": "card--three",
+    "children": [
+      "image#card__fragancias--home",
+      "link#card__fragancias"
+    ],
+    "props": {
+      "blockClass": "container_card-three"
+    }
+  },
+  "image#card__fragancias--home": {
+    "props": {
+      "src": "assets/images/image__card--fragancias.jpg",
+      "blockClass": "image__card--fragancias"
+    }
+  },
+  "link#card__fragancias": {
+    "title": "link__fragancias--card",
+    "props": {
+      "label": "FRAGANCIAS",
+      "href": "/",
+      "blockClass": "link__fragancias--card"
+    }
+  }
 }

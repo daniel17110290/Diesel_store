@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#home__banner--one-mobile": {
+    "props": {
+      "blockClass": "home__banner--one"
+    },
+    "children": [
+      "flex-layout.col#banner__diesel--one-mobile"
+    ]
+  },
+  "flex-layout.col#banner__diesel--one-mobile": {
+    "props": {
+      "blockClass": "banner__diesel_one"
+    },
+    "children": [
+      "image#home__banner--one-mobile",
+      "link#button__banner--one-mobile"
+    ]
+  },
+  "link#button__banner--one-mobile": {
+    "props": {
+      "label": "DESCUBRE MÁS",
+      "displayMode": "button",
+      "blockClass": "button__banner--one",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "small"
+      }
+    }
+  },
+  "image#home__banner--one-mobile": {
+    "props": {
+      "src": "assets/images/home-banner1-mobile.png",
+      "blockClass": "home__banner--one"
+    }
+  }
+}
