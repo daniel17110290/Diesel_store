@@ -14,7 +14,11 @@
     ],
     "props": {
       "blockClass": "texto__metodos--pago",
+
       "width": "15%",
+
+      
+
       "horizontalAlign": "center",
       "verticalAlign": "middle"
     }
@@ -32,7 +36,9 @@
     ],
     "props": {
       "blockClass": "container__payment--method",
+
       "width": "85%",
+
       "horizontalAlign": "center",
       "verticalAlign": "middle"
     }
@@ -81,7 +87,11 @@
       "rich-text#pse__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--pse",
+
+      
+     
       "horizontalAlign": "center"
     }
   },
@@ -90,7 +100,9 @@
       "text": "PSE",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "image#pse__banco--footer": {
@@ -130,7 +142,9 @@
       "rich-text#american__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--american",
+
       "horizontalAlign": "center"
     }
   },
@@ -139,7 +153,9 @@
       "text": "American\n Express",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "image#american__banco--footer": {
@@ -179,7 +195,9 @@
       "rich-text#diners__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--diners",
+
       "horizontalAlign": "center"
     }
   },
@@ -200,7 +218,9 @@
       "text": "Diners Club",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--visa": {
@@ -228,7 +248,9 @@
       "rich-text#visa__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--visa",
+
       "horizontalAlign": "center"
     }
   },
@@ -249,7 +271,9 @@
       "text": "Visa",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--mastercard": {
@@ -277,7 +301,9 @@
       "rich-text#mastercard__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--mastercard",
+
       "horizontalAlign": "center"
     }
   },
@@ -298,7 +324,9 @@
       "text": "Mastercard",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--efecty": {
@@ -326,7 +354,9 @@
       "rich-text#efecty__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--efecty",
+
       "horizontalAlign": "center"
     }
   },
@@ -347,7 +377,9 @@
       "text": "Efecty",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--sistecredito": {
@@ -375,7 +407,9 @@
       "rich-text#sistecredito__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--sistecredito",
+
       "horizontalAlign": "center"
     }
   },
@@ -396,7 +430,9 @@
       "text": "Sistecredito",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--mercado-pago": {
@@ -424,7 +460,9 @@
       "rich-text#mercado-pago__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--mercado-pago",
+
       "horizontalAlign": "center"
     }
   },
@@ -445,7 +483,9 @@
       "text": "Mercado\n Pago",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--nequi": {
@@ -473,7 +513,9 @@
       "rich-text#nequi__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--nequi",
+
       "horizontalAlign": "center"
     }
   },
@@ -494,7 +536,9 @@
       "text": "Nequi",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--cupon": {
@@ -522,7 +566,9 @@
       "rich-text#cupon__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--cupon",
+
       "horizontalAlign": "center"
     }
   },
@@ -543,7 +589,9 @@
       "text": "Cupon De\n Descuento",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--addi": {
@@ -571,7 +619,9 @@
       "rich-text#addi__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--addi",
+
       "horizontalAlign": "center"
     }
   },
@@ -592,7 +642,9 @@
       "text": "ADDI",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   },
   "flex-layout.col#payment__methods--bancolombia": {
@@ -620,7 +672,9 @@
       "rich-text#bancolombia__payment--method"
     ],
     "props": {
+
       "blockClass": "text__payment--bancolombia",
+
       "horizontalAlign": "center"
     }
   },
@@ -641,7 +695,9 @@
       "text": "Boton\n Bancolombia",
       "blockClass": "Text__payment--method",
       "textAlignment": "CENTER",
+
       "textPosition": "CENTER"
+
     }
   }
 }
