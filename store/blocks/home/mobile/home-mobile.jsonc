@@ -1,18 +1,11 @@
 {
   "responsive-layout.phone": {
     "children": [
-      "rich-text#text__mobile",
       "flex-layout.row#home__banner--one-mobile",
       "flex-layout.row#home__banner--two-mobile",
       "flex-layout.row#home__banner--three-mobile",
       "flex-layout.row#home__banner--four-mobile",
       "flex-layout.row#card__home--store-mobile"
     ]
-  },
-  "rich-text#text__mobile": {
-    "props": {
-      "text": "# este es el texto mobile",
-      "blockClass": "texto__mobile"
-    }
   }
 }
