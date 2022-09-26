@@ -1,0 +1,25 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ]
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.col#footer__container--info"
+    ],
+    "props": {
+      "blockClass": "footer__container--info"
+    }
+  },
+  "flex-layout.col#footer__container--info": {
+    "children": [
+      "flex-layout.row#seccion__payments",
+      "flex-layout.row#seccion__info",
+      "flex-layout.row#seccion__images"
+    ],
+    "props": {
+      "blockClass": "container__sections--footer"
+    }
+  }
+}

@@ -110,7 +110,7 @@
       "product-summary-name"
     ],
     "props": {
-      "blockClass": "product-name"
+      "blockClass": "product__name"
     }
   },
   "product-summary-name": {
@@ -131,6 +131,11 @@
       "blockClass": "product--image"
     }
   },
+  "product-summary-image": {
+    "props": {
+      "blockClass": "image__product"
+    }
+  },
   "flex-layout.row#cartbutton__product": {
     "children": [
       //"product-summary-buy-button"
@@ -138,6 +143,12 @@
     ],
     "props": {
       "blockClass": "container__add-to-cart"
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "text": "AGREGAR",
+      "blockClass": "add__to--cart"
     }
   },
   "flex-layout.row#price__product": {
@@ -160,14 +171,24 @@
   },
   "modal-layout#global__quick-view--modal": {
     "children": [
+      "modal-header#quick__view--product",
       "flex-layout.row#quick-view__modal"
     ]
+  },
+  "modal-header#quick__view--product": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
   },
   "flex-layout.row#quick-view__modal": {
     "children": [
       "flex-layout.col#quick-view__modal--image",
       "flex-layout.col#quick-view__modal--info"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__qick--info"
+    }
   },
   "flex-layout.col#quick-view__modal--image": {
     "children": [
@@ -184,7 +205,10 @@
       "product-quantity",
       "add-to-cart-button",
       "modal-trigger#add-to-cart-info"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__quick--view"
+    }
   },
   "modal-trigger#add-to-cart-info": {
     "children": [

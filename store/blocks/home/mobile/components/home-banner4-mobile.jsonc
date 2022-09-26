@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#home__banner--four-mobile": {
+    "children": [
+      "image#home__banner--four-mobile"
+    ]
+  },
+  "image#home__banner--four-mobile": {
+    "props": {
+      "src": "assets/images/home-banner3-mobile.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  }
+}

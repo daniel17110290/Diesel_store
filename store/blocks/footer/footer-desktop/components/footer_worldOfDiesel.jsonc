@@ -1,0 +1,54 @@
+{
+  "flex-layout.col#info__worldofdiesel": {
+    "children": [
+      "disclosure-layout#worldofdiesel"
+    ],
+    "props": {
+      "blockClass": "container__worldofdiesel"
+    }
+  },
+  "disclosure-layout#worldofdiesel": {
+    "children": [
+      "disclosure-trigger#worldofdiesel",
+      "disclosure-content#worldofdiesel"
+    ]
+  },
+  "disclosure-trigger#worldofdiesel": {
+    "children": [
+      "flex-layout.row#trigger__disclosure--worldofdiesel"
+    ],
+    "props": {
+      "blockClass": "disclosure__worldofdiesel",
+      "as": "span"
+    }
+  },
+  "flex-layout.row#trigger__disclosure--worldofdiesel": {
+    "children": [
+      "flex-layout.col#text__worldofdiesel--disclosure",
+      "flex-layout.col#state__indicator--disclosure"
+    ],
+    "props": {
+      "blockClass": "container__state--disclosure"
+    }
+  },
+  "flex-layout.col#text__worldofdiesel--disclosure": {
+    "children": [
+      "rich-text#worldofdiesel"
+    ],
+    "props": {
+      "blockClass": "container--texto__worldofdiesel",
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#worldofdiesel": {
+    "props": {
+      "text": "WORLD OF DIESEL",
+      "blockClass": "text__worldofdiesel"
+    }
+  },
+  "disclosure-content#worldofdiesel": {
+    "children": [
+      "menu#ayuda__container"
+    ]
+  }
+}

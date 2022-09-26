@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#home__banner--two": {
+    "children": [
+      "image#home__banner--two"
+    ]
+  },
+  "image#home__banner--two": {
+    "props": {
+      "src": "assets/images/desk-diesel-library-home.jpg",
+      "link": {
+        "url": "/construccion"
+      }
+    }
+  }
+}

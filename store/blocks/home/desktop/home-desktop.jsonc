@@ -1,0 +1,26 @@
+{
+  "responsive-layout.desktop#home__desktop": {
+    "title": "contenedor home desktop",
+    "children": [
+      "whatsapp-button",
+      "flex-layout.row#home__banner--one",
+      "flex-layout.row#home__banner--two",
+      "flex-layout.row#home__banner--three",
+      "flex-layout.row#home__banner--four",
+      "flex-layout.row#home__banner--five",
+      "flex-layout.row#card__home--store",
+      "flex-layout.row#custom__components--links"
+    ],
+    "props": {
+      "blockClass": "container__desktop--home"
+    }
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/images/whatsapp2.png",
+      "phone": "3135649874",
+      "message": "diesel strong",
+      "blockClass": "whatsapp__button--logo"
+    }
+  }
+}
