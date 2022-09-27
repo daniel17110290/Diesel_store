@@ -1,0 +1,58 @@
+{
+  "flex-layout.col#info__ayuda-mobile": {
+    "children": [
+      "disclosure-layout#ayuda"
+    ],
+    "props": {
+      "blockClass": "container__ayuda"
+    }
+  },
+  "disclosure-layout#ayuda": {
+    "children": [
+      "disclosure-trigger#ayuda",
+      "disclosure-content#ayuda"
+    ],
+    "props": {
+      "animated": false,
+      "blockClass": "disclosure__footer"
+    }
+  },
+  "disclosure-trigger#ayuda": {
+    "children": [
+      "flex-layout.row#trigger__disclosure--ayuda-mobile"
+    ],
+    "props": {
+      "blockClass": "trigger disclosure",
+      "as": "span"
+    }
+  },
+  "flex-layout.row#trigger__disclosure--ayuda-mobile": {
+    "children": [
+      "flex-layout.col#text__ayuda--disclosure-mobile",
+      "flex-layout.col#state__indicator--disclosure-mobile"
+    ],
+    "props": {
+      "blockClass": "container__state--disclosure-mobile"
+    }
+  },
+  "flex-layout.col#text__ayuda--disclosure-mobile": {
+    "children": [
+      "rich-text#ayuda"
+    ],
+    "props": {
+      "blockClass": "container--texto__ayuda",
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#ayuda": {
+    "props": {
+      "text": "AYUDA",
+      "blockClass": "ayuda"
+    }
+  },
+  "disclosure-content#ayuda": {
+    "children": [
+      "menu#ayuda__container"
+    ]
+  }
+}

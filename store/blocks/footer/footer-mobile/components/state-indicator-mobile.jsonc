@@ -1,0 +1,29 @@
+{
+  "flex-layout.col#state__indicator--disclosure-mobile": {
+    "children": [
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "state__indicator--icon",
+      "verticalAlign": "middle"
+      //"horizontalAlign": "right"
+    }
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up",
+      "blockClass": "state--disclosure"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  }
+}
