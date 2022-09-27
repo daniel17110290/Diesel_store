@@ -4,7 +4,8 @@
       "disclosure-layout#worldofdiesel"
     ],
     "props": {
-      "blockClass": "container__worldofdiesel"
+      "blockClass": "container__worldofdiesel",
+      "verticalAlign": "middle"
     }
   },
   "disclosure-layout#worldofdiesel": {

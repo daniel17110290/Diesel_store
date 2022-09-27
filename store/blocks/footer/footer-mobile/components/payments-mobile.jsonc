@@ -1,0 +1,663 @@
+{
+  "flex-layout.row#seccion__payments--mobile": {
+    "children": [
+      "flex-layout.col#text__metodos--pago-mobile",
+      "flex-layout.col#images__bancos--pago-mobile"
+    ],
+    "props": {
+      "blockClass": "container__payments--methods-mobile"
+    }
+  },
+  "flex-layout.col#text__metodos--pago-mobile": {
+    "children": [
+      "rich-text#payment__method"
+    ],
+    "props": {
+      "blockClass": "texto__metodos--pago",
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#payment__method": {
+    "props": {
+      "text": "CONOCE NUESTROS \n **MEDIOS DE PAGO**",
+      "blockClass": "metodos__pago",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.col#images__bancos--pago-mobile": {
+    "children": [
+      "flex-layout.row#container__payment--method1",
+      "flex-layout.row#container__payment--method2",
+      "flex-layout.row#container__payment--method3"
+    ],
+    "props": {
+      "blockClass": "container__payment--method",
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#container__payment--method1": {
+    "children": [
+      "flex-layout.col#payment__methods--pse",
+      "flex-layout.col#payment__methods--american",
+      "flex-layout.col#payment__methods--diners",
+      "flex-layout.col#payment__methods--visa"
+    ],
+    "props": {
+      "blockClass": "payment__methods--1"
+    }
+  },
+  "flex-layout.row#container__payment--method2": {
+    "children": [
+      "flex-layout.col#payment__methods--mastercard",
+      "flex-layout.col#payment__methods--efecty",
+      "flex-layout.col#payment__methods--sistecredito",
+      "flex-layout.col#payment__methods--mercado-pago"
+    ],
+    "props": {
+      "blockClass": "payment__methods--2"
+    }
+  },
+  "flex-layout.row#container__payment--method3": {
+    "children": [
+      "flex-layout.col#payment__methods--nequi",
+      "flex-layout.col#payment__methods--cupon",
+      "flex-layout.col#payment__methods--addi",
+      "flex-layout.col#payment__methods--bancolombia"
+    ],
+    "props": {
+      "blockClass": "payment__methods--3"
+    }
+  },
+  "flex-layout.col#payment__methods--pse": {
+    "children": [
+      "flex-layout.row#image__payment--pse",
+      "flex-layout.row#text__payment--pse"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--pse": {
+    "children": [
+      "image#pse__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--pse",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--pse": {
+    "children": [
+      "rich-text#pse__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--pse",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#pse__payment--method": {
+    "props": {
+      "text": "PSE",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#pse__banco--footer": {
+    "props": {
+      "src": "assets/images/pse.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "image__payment--method",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "pse"
+    }
+  },
+  "flex-layout.col#payment__methods--american": {
+    "children": [
+      "flex-layout.row#image__payment--american",
+      "flex-layout.row#text__payment--american"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--american": {
+    "children": [
+      "image#american__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--american",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--american": {
+    "children": [
+      "rich-text#american__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--american",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#american__payment--method": {
+    "props": {
+      "text": "American\n Express",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#american__banco--footer": {
+    "props": {
+      "src": "assets/images/american express.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "American",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "flex-layout.col#payment__methods--diners": {
+    "children": [
+      "flex-layout.row#image__payment--diners",
+      "flex-layout.row#text__payment--diners"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--diners": {
+    "children": [
+      "image#diners__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--diners",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--diners": {
+    "children": [
+      "rich-text#diners__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--diners",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#diners__banco--footer": {
+    "props": {
+      "src": "assets/images/diners.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Diners",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#diners__payment--method": {
+    "props": {
+      "text": "Diners Club",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--visa": {
+    "children": [
+      "flex-layout.row#image__payment--visa",
+      "flex-layout.row#text__payment--visa"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--visa": {
+    "children": [
+      "image#visa__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--visa",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--visa": {
+    "children": [
+      "rich-text#visa__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--visa",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#visa__banco--footer": {
+    "props": {
+      "src": "assets/images/visa.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Visa",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#visa__payment--method": {
+    "props": {
+      "text": "Visa",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--mastercard": {
+    "children": [
+      "flex-layout.row#image__payment--mastercard",
+      "flex-layout.row#text__payment--mastercard"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--mastercard": {
+    "children": [
+      "image#mastercard__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--mastercard",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--mastercard": {
+    "children": [
+      "rich-text#mastercard__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--mastercard",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#mastercard__banco--footer": {
+    "props": {
+      "src": "assets/images/mastercard.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Mastercard",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#mastercard__payment--method": {
+    "props": {
+      "text": "Mastercard",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--efecty": {
+    "children": [
+      "flex-layout.row#image__payment--efecty",
+      "flex-layout.row#text__payment--efecty"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--efecty": {
+    "children": [
+      "image#efecty__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--efecty",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--efecty": {
+    "children": [
+      "rich-text#efecty__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--efecty",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#efecty__banco--footer": {
+    "props": {
+      "src": "assets/images/efecty.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Efecty",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#efecty__payment--method": {
+    "props": {
+      "text": "Efecty",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--sistecredito": {
+    "children": [
+      "flex-layout.row#image__payment--sistecredito",
+      "flex-layout.row#text__payment--sistecredito"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--sistecredito": {
+    "children": [
+      "image#sistecredito__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--sistecredito",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--sistecredito": {
+    "children": [
+      "rich-text#sistecredito__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--sistecredito",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#sistecredito__banco--footer": {
+    "props": {
+      "src": "assets/images/sistecredito.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Sistecredito",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#sistecredito__payment--method": {
+    "props": {
+      "text": "Sistecredito",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--mercado-pago": {
+    "children": [
+      "flex-layout.row#image__payment--mercado-pago",
+      "flex-layout.row#text__payment--mercado-pago"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--mercado-pago": {
+    "children": [
+      "image#mercado-pago__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--mercado-pago",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--mercado-pago": {
+    "children": [
+      "rich-text#mercado-pago__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--mercado-pago",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#mercado-pago__banco--footer": {
+    "props": {
+      "src": "assets/images/mercado_pago.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Mercado-pago",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#mercado-pago__payment--method": {
+    "props": {
+      "text": "Mercado\n Pago",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--nequi": {
+    "children": [
+      "flex-layout.row#image__payment--nequi",
+      "flex-layout.row#text__payment--nequi"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--nequi": {
+    "children": [
+      "image#nequi__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--nequi",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--nequi": {
+    "children": [
+      "rich-text#nequi__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--nequi",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#nequi__banco--footer": {
+    "props": {
+      "src": "assets/images/nequi.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Nequi",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#nequi__payment--method": {
+    "props": {
+      "text": "Nequi",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--cupon": {
+    "children": [
+      "flex-layout.row#image__payment--cupon",
+      "flex-layout.row#text__payment--cupon"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--cupon": {
+    "children": [
+      "image#cupon__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--cupon",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--cupon": {
+    "children": [
+      "rich-text#cupon__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--cupon",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#cupon__banco--footer": {
+    "props": {
+      "src": "assets/images/cupon-de-descuento-dark.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Cupon",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#cupon__payment--method": {
+    "props": {
+      "text": "Cupon De\n Descuento",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--addi": {
+    "children": [
+      "flex-layout.row#image__payment--addi",
+      "flex-layout.row#text__payment--addi"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--addi": {
+    "children": [
+      "image#addi__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--addi",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--addi": {
+    "children": [
+      "rich-text#addi__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--addi",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#addi__banco--footer": {
+    "props": {
+      "src": "assets/images/addi.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Addi",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#addi__payment--method": {
+    "props": {
+      "text": "ADDI",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#payment__methods--bancolombia": {
+    "children": [
+      "flex-layout.row#image__payment--bancolombia",
+      "flex-layout.row#text__payment--bancolombia"
+    ],
+    "props": {
+      "blockClass": "container__payment--methods",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#image__payment--bancolombia": {
+    "children": [
+      "image#bancolombia__banco--footer"
+    ],
+    "props": {
+      "blockClass": "image__payment--bancolombia",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#text__payment--bancolombia": {
+    "children": [
+      "rich-text#bancolombia__payment--method"
+    ],
+    "props": {
+      "blockClass": "text__payment--bancolombia",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#bancolombia__banco--footer": {
+    "props": {
+      "src": "assets/images/circulo.png",
+      "link": {
+        "url": "/about-us"
+      },
+      "alt": "Bancolombia",
+      "maxWidth": 50,
+      "maxHeight": 50,
+      "blockClass": "image__payment--method"
+    }
+  },
+  "rich-text#bancolombia__payment--method": {
+    "props": {
+      "text": "Boton\n Bancolombia",
+      "blockClass": "Text__payment--method",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

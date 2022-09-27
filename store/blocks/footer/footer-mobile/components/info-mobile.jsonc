@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#seccion__info--mobile": {
+    "children": [
+      "flex-layout.col#cointainer__disclosure--info-mobile"
+    ],
+    "props": {
+      "blockClass": "container__info--section-mobile"
+    }
+  },
+  "flex-layout.col#cointainer__disclosure--info-mobile": {
+    "children": [
+      "disclosure-layout-group#footer__menus--group-mobile"
+    ],
+    "props": {
+      "blockClass": "disclosure__group--menus-mobile"
+    }
+  },
+  "disclosure-layout-group#footer__menus--group-mobile": {
+    "children": [
+      "flex-layout.row#cointainer__info--mobile"
+    ]
+  },
+  "flex-layout.row#cointainer__info--mobile": {
+    "children": [
+      "flex-layout.col#info__ayuda-mobile",
+      "flex-layout.col#info__condiciones",
+      "flex-layout.col#info__worldofdiesel",
+      "flex-layout.col#link__localozador",
+      "flex-layout.col#link__ship"
+    ],
+    "props": {
+      "blockClass": "cointainer__info-mobile"
+    }
+  }
+}
