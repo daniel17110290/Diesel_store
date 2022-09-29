@@ -1,0 +1,117 @@
+{
+  "header-layout.mobile#header__mobile": {
+    "children": [
+      //"flex-layout.row#banner__notification",
+      "sticky-layout#1-mobile"
+      //"header-row#header__mobile--top"
+    ],
+    "props": {
+      "blockClass": "header__mobile"
+    }
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#header__mobile--top"
+    ]
+  },
+  "flex-layout.row#header__mobile--top": {
+    "title": "header__mobile__content",
+    "children": [
+      "flex-layout.col#drawer__search--mobile",
+      "flex-layout.col#logo__center--mobile",
+      "flex-layout.col#login__cart--mobile"
+      // "rich-text#menu",
+      // "modal-trigger#header__search--desktop",
+      // "header-spacer",
+      // //"header-force-center#header__logo--middle",
+      // "login#header__login",
+      // "link#header__desktop--favorites",
+      // "minicart.v2"
+      // // "flex-layout.row#mobile__header--left",
+      // // "header-force-center#header__logo--middle",
+      // // "header-spacer",
+      // // "flex-layout.row#mobile__header--right"
+    ],
+    "props": {
+      "blockClass": "header__mobile--top",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": false,
+      "fullWidth": false
+    }
+  },
+  "flex-layout.col#drawer__search--mobile": {
+    "children": [
+      "flex-layout.row#drawer__mobile",
+      "flex-layout.row#search__mobile"
+    ],
+    "props": {
+      "blockClass": "drawer__search--mobile"
+    }
+  },
+  "flex-layout.row#drawer__mobile": {
+    "children": [
+      "drawer"
+    ],
+    "props": {
+      "blockClass": "drawer__mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#header__menu--departments"
+    ]
+  },
+  "flex-layout.row#search__mobile": {
+    "children": [
+      "modal-trigger#header__search--desktop"
+    ],
+    "props": {
+      "blockClass": "search__mobile"
+    }
+  },
+  "flex-layout.col#logo__center--mobile": {
+    "children": [
+      "logo#mobile"
+      /* "header-force-center#header__logo--middle" */
+    ],
+    "props": {
+      "blockClass": "logo__center--mobile"
+    }
+  },
+  "logo#mobile": {
+    "title": "menu mobile logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/header__logo.png",
+      "width": "65",
+      "height": "30",
+      "blockClass": "mobile"
+    }
+  },
+  "flex-layout.col#login__cart--mobile": {
+    "children": [
+      "flex-layout.row#login__mobile",
+      "flex-layout.row#minicart__mobile"
+    ],
+    "props": {
+      "blockClass": "login__cart--mobile"
+    }
+  },
+  "flex-layout.row#login__mobile": {
+    "children": [
+      "login#header__login"
+    ],
+    "props": {
+      "blockClass": "login__mobile"
+    }
+  },
+  "flex-layout.row#minicart__mobile": {
+    "children": [
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "minicart__mobile"
+    }
+  }
+}

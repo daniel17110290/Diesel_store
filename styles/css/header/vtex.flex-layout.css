@@ -1,0 +1,28 @@
+.flexRowContent--header__mobile--top {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol--login__cart--mobile {
+    flex-direction: row;
+    align-items: center
+}
+
+
+.flexCol--drawer__search--mobile {
+    flex-direction: row;
+    align-items: center
+}
+/* .flexRowContent--header__mobile--top {
+    display: flex;
+    flex-direction: row;
+} */
+.flexRow--header__mobile--top{
+    background-color: white;
+}
+.flexCol--logo__center--mobile{
+    margin: auto;
+    padding: 1rem;
+}

@@ -21,14 +21,18 @@
             "menu#menu__department--sale"
         ],
         "props": {
-            "width": "100%"
+            "width": "100%",
+            "blockClass": "submenu__department"
         }
     },
     "menu#menu__department--sale": {
         "children": [
             "menu-item#menu__category--man--sale",
             "menu-item#menu__category--woman--sale"
-        ]
+        ],
+        "props": {
+            "blockClass": "menu__department--man"
+        }
     },
     "menu-item#menu__category--man--sale": {
         "props": {

@@ -21,7 +21,8 @@
       "menu#menu__department--woman"
     ],
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "submenu__department"
     }
   },
   "menu#menu__department--woman": {
@@ -31,7 +32,10 @@
       "menu-item#menu__category--ropa--woman",
       "menu-item#menu__category--zapatos--woman",
       "menu-item#menu__category--accesorios--woman"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__department--man"
+    }
   },
   "menu-item#menu__category--nuevo--woman": {
     "props": {

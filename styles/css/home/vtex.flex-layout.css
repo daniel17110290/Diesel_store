@@ -32,6 +32,14 @@
     padding: 1rem 4rem 2rem;
     align-items: center;
 }
+@media (max-width: 425px) {
+    .flexRowContent--container__links--custom{
+        display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid black;
+    }
+  }
 .flexCol--container__link--customComponents{
   align-items: center;
 }
@@ -39,5 +47,5 @@
     margin-bottom: 15px
 }
 .flexCol--container__cards--mobile1{
-    padding: 3rem 2rem 3rem;
+    margin: 3rem 2rem 3rem;
 }
