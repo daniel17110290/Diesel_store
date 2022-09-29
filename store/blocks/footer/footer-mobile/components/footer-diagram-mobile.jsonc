@@ -16,7 +16,7 @@
     "children": [
       "flex-layout.row#seccion__payments--mobile",
       "flex-layout.row#seccion__info--mobile",
-      "flex-layout.row#seccion__images"
+      "flex-layout.row#seccion__images-mobile"
     ],
     "props": {
       "blockClass": "container__sections--footer-mobile"

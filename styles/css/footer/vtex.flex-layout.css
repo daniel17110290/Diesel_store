@@ -40,7 +40,7 @@
 }
 .flexColChild--container__payment--methods{
     height: 60px !important;
-    width: 40px;
+    /* width: 40px; */
 }
 .flexRowContent--payment__methods--all :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     min-width: 60px
@@ -74,6 +74,24 @@
 }
 .flexRowContent--container__info--section-mobile{
     margin-bottom: 1rem;
+}
+.flexColChild--state__indicator--icon-mobile{
+    /* display: flex;
+    text-align: right;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-direction: row-reverse; */
+}
+
+.flexRowContent--images__bancos--pago-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 20% !important;
+}
+.flexRowContent--images__bancos--pago-mobile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-evenly;
 }
 
 

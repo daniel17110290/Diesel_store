@@ -58,13 +58,17 @@
       "flex-layout.row#category__man--nuevo"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menu__nuevo--man"
     }
   },
   "flex-layout.row#category__man--nuevo": {
     "children": [
       "menu-item#menu__category--nuevo--man"
-    ]
+    ],
+    "props": {
+      "blockClass": "category__man--nuevo"
+    }
   },
   "menu-item#menu__category--nuevo--man": {
     "blocks": [
@@ -89,7 +93,8 @@
       "flex-layout.row#submenu__man"
     ],
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "categories__man--lonuevo"
     }
   },
   "flex-layout.row#submenu__man": {
@@ -114,7 +119,8 @@
       "menu-item#menu__denim--joggjeans"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menu__categories--man"
     }
   },
   "flex-layout.col#menu__category--denim--man": {
@@ -208,7 +214,10 @@
       "menu-item#menu__category--ropa--woman",
       "menu-item#menu__category--zapatos--woman",
       "menu-item#menu__category--accesorios--woman"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__department--man"
+    }
   },
   // "menu-item#menu__category--denim--man": {
   //   "props": {

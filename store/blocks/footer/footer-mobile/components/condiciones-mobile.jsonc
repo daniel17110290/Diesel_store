@@ -1,0 +1,54 @@
+{
+  "flex-layout.col#info__condiciones-mobile": {
+    "children": [
+      "disclosure-layout#condiciones"
+    ],
+    "props": {
+      "blockClass": "container__condiciones"
+    }
+  },
+  "disclosure-layout#condiciones": {
+    "children": [
+      "disclosure-trigger#condiciones",
+      "disclosure-content#condiciones"
+    ]
+  },
+  "disclosure-trigger#condiciones": {
+    "children": [
+      "flex-layout.row#trigger__disclosure--condiciones-mobile"
+    ],
+    "props": {
+      "blockClass": "disclosure__condiciones",
+      "as": "span"
+    }
+  },
+  "flex-layout.row#trigger__disclosure--condiciones-mobile": {
+    "children": [
+      "flex-layout.col#text__condiciones--disclosure-mobile",
+      "flex-layout.col#state__indicator--disclosure"
+    ],
+    "props": {
+      "blockClass": "container__state--disclosure-mobile"
+    }
+  },
+  "flex-layout.col#text__condiciones--disclosure-mobile": {
+    "children": [
+      "rich-text#condiciones"
+    ],
+    "props": {
+      "blockClass": "container--texto__condiciones",
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#condiciones": {
+    "props": {
+      "text": "CONDICIONES",
+      "blockClass": "text__condiciones"
+    }
+  },
+  "disclosure-content#condiciones": {
+    "children": [
+      "menu#ayuda__container"
+    ]
+  }
+}

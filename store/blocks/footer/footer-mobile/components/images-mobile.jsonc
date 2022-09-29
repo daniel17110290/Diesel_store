@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#seccion__images-mobile": {
+    "children": [
+      "image#propaganda__bancos-mobile"
+    ],
+    "props": {
+      "blockClass": "imagen__propaganda"
+    }
+  },
+  "image#propaganda__bancos-mobile": {
+    "props": {
+      "src": "assets/images/bancos_footer.png",
+      "blockClass": "footer__image--propaganda"
+    }
+  }
+}

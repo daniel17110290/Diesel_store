@@ -6,7 +6,8 @@
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
-            "logInButtonBehavior": "link"
+            "logInButtonBehavior": "link",
+            "showIconProfile": true
         }
     }
 }

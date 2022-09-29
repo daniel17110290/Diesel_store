@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#mobile__header--right": {
+    "title": "componentes derecha header mobile",
+    "children": [
+      "flex-layout.col#login__header",
+      "flex-layout.col#link__favorites--header",
+      "flex-layout.col#minicart__header"
+    ],
+    "props": {
+      "blockClass": "mobile__header--right"
+    }
+  }
+}

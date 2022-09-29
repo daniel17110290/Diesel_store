@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#mobile__header--left": {
+    "title": "componentes izquierda header mobile",
+    "children": [
+      "flex-layout.col#texto_menu",
+      "flex-layout.col#modal__search--header"
+    ],
+    "props": {
+      "blockClass": "mobile__header--left"
+    }
+  },
+  "flex-layout.col#texto_menu": {
+    "children": [
+      "rich-text#menu"
+    ],
+    "props": {
+      "width": "50%",
+      "blockClass": "texto_menu"
+    }
+  },
+  "rich-text#menu": {
+    "props": {
+      "text": "menu"
+    }
+  }
+}

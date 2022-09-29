@@ -15,4 +15,21 @@
     height: 200px;
     width: 600px;
 }
+@media (max-width: 768px) {
+    .menuContainer--menu__department{
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 768px) {
+    .menuContainer--menu__department--man{
+        flex-direction: column;
+        gap: 0.5rem
+    }
+}
+@media (max-width: 768px) {
+    .submenu--submenu__department{
+        justify-content: flex-start;
+    }
+}
+
 

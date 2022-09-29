@@ -29,7 +29,7 @@
   "flex-layout.row#trigger__disclosure--ayuda-mobile": {
     "children": [
       "flex-layout.col#text__ayuda--disclosure-mobile",
-      "flex-layout.col#state__indicator--disclosure-mobile"
+      "flex-layout.col#state__indicator--disclosure"
     ],
     "props": {
       "blockClass": "container__state--disclosure-mobile"

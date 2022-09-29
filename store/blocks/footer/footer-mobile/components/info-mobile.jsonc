@@ -23,8 +23,8 @@
   "flex-layout.row#cointainer__info--mobile": {
     "children": [
       "flex-layout.col#info__ayuda-mobile",
-      "flex-layout.col#info__condiciones",
-      "flex-layout.col#info__worldofdiesel",
+      "flex-layout.col#info__condiciones-mobile",
+      "flex-layout.col#info__worldofdiesel-mobile",
       "flex-layout.col#link__localozador",
       "flex-layout.col#link__ship"
     ],

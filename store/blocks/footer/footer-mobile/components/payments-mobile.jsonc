@@ -1,11 +1,42 @@
 {
   "flex-layout.row#seccion__payments--mobile": {
     "children": [
-      "flex-layout.col#text__metodos--pago-mobile",
-      "flex-layout.col#images__bancos--pago-mobile"
+      "flex-layout.col#seccion__payments--mobile"
+      // "flex-layout.col#text__metodos--pago-mobile",
+      // "flex-layout.col#images__bancos--pago-mobile"
     ],
     "props": {
       "blockClass": "container__payments--methods-mobile"
+    }
+  },
+  "flex-layout.col#seccion__payments--mobile": {
+    "children": [
+      "flex-layout.row#text__metodos--pago-mobile",
+      "flex-layout.row#images__bancos--pago-mobile"
+    ]
+  },
+  "flex-layout.row#text__metodos--pago-mobile": {
+    "children": [
+      "rich-text#payment__method"
+    ]
+  },
+  "flex-layout.row#images__bancos--pago-mobile": {
+    "children": [
+      "flex-layout.col#payment__methods--pse",
+      "flex-layout.col#payment__methods--american",
+      "flex-layout.col#payment__methods--diners",
+      "flex-layout.col#payment__methods--visa",
+      "flex-layout.col#payment__methods--mastercard",
+      "flex-layout.col#payment__methods--efecty",
+      "flex-layout.col#payment__methods--sistecredito",
+      "flex-layout.col#payment__methods--mercado-pago",
+      "flex-layout.col#payment__methods--nequi",
+      "flex-layout.col#payment__methods--cupon",
+      "flex-layout.col#payment__methods--addi",
+      "flex-layout.col#payment__methods--bancolombia"
+    ],
+    "props": {
+      "blockClass": "images__bancos--pago-mobile"
     }
   },
   "flex-layout.col#text__metodos--pago-mobile": {
