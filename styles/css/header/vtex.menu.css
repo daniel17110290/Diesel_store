@@ -31,5 +31,101 @@
         justify-content: flex-start;
     }
 }
+@media (max-width: 320px) {
+    .menuItem--menu__department--man{
+        position: absolute;
+    top: 96px;
+    /* top: -50px; */
+    left: 0px;
+    }
+    .styledLinkContent--menu__department--man{
+      color: white;
+    font-weight: 700;
+    }
+    
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .menuItem--menu__department--man{
+    position: absolute;
+    top: 107px;
+  }
+  .styledLinkContent--menu__department--man{
+    color: white;
+  font-weight: 700;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .menuItem--menu__department--man{
+    position: absolute;
+    top: 119px;
+  }
+  .styledLinkContent--menu__department--man{
+    color: white;
+  font-weight: 700;
+  }
+}
+@media (max-width: 320px) {
+  .menuItem--menu__department--woman{
+    position: absolute;
+    top: 182px;
+    /* top: -50px; */
+  }
+  .styledLinkContent--menu__department--woman{
+    color: white;
+  font-weight: 700;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .menuItem--menu__department--woman{
+    position: absolute;
+    top: 206px;
+  }
+  .styledLinkContent--menu__department--woman{
+    color: white;
+  font-weight: 700;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .menuItem--menu__department--woman{
+    position: absolute;
+    top: 229px;
+  }
+  .styledLinkContent--menu__department--woman{
+    color: white;
+  font-weight: 700;
+  }
+}
+@media (max-width: 320px) {
+  .menuItem--menu__department--sale{
+    position: absolute;
+    top: 270px;
+    /* top: -45px; */
+  }
+  .styledLinkContent--menu__department--sale{
+    color: white;
+  font-weight: 700;
+  }
+  
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .menuItem--menu__department--sale{
+    position: absolute;
+    bottom: 182px;
+  }
+  .styledLinkContent--menu__department--sale{
+    color: white;
+  font-weight: 700;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .menuItem--menu__department--sale{
+    position: absolute;
+    bottom: 138px;
+  }
+  .styledLinkContent--menu__department--sale{
+    color: white;
+  font-weight: 700;
+  }
+}
 
 

@@ -146,3 +146,20 @@
   transition: all 0.3s ease-in;
   box-shadow: 3px 3px 10px;
 }
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .link--button__banner--one{
+    right: 27px;
+    bottom: 86px;
+    background-color: rgb(253, 7, 60);
+  }
+  .link--button__banner--four{
+    left: 67px;
+    bottom: 74px;
+  }
+  .link--button__banner--five{
+    left: 32px;
+    bottom: 69px;
+    color: white;
+    background-color: rgb(253, 7, 60);
+  }
+}

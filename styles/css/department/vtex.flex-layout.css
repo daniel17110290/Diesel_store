@@ -24,3 +24,29 @@
 .flexRowContent--product-name{
     height: 85px;
 }
+.flexRowContent--title__department{
+    color: rgb(253, 7, 60);
+}
+@media(max-width: 425px){
+    .flexRowContent--title__department :global(.vtex-search-result-3-x-galleryTitle--layout){
+        font-size: 2rem;
+    }
+}
+/* .flexRowContent--filter__department :global(.vtex-search-result-3-x-filterPopupButton){
+    padding: 0 !important;
+} */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .flexRowContent--container__department{
+        flex-direction: column
+    }
+    
+    .flexColChild--container__filter--department{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flexRowContent--container__department :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
+    }
+}
+

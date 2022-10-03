@@ -1,0 +1,31 @@
+.filterAccordionItemBox--categoria{
+    border-color: rgb(253, 7, 60)
+}
+.filterAccordionItemBox--marca{
+    border-color: rgb(253, 7, 60)
+}
+.filterAccordionItemBox--gama-de-precios{
+    border-color: rgb(253, 7, 60)
+}
+.filterAccordionItemBox--categoria :global(.vtex-search-result-3-x-accordionFilterItemIcon){
+    color:  rgb(253, 7, 60)
+}
+.filterAccordionItemBox--marca :global(.vtex-search-result-3-x-accordionFilterItemIcon){
+    color:  rgb(253, 7, 60)
+}
+.filterAccordionItemBox--gama-de-precios :global(.vtex-search-result-3-x-accordionFilterItemIcon){
+    color:  rgb(253, 7, 60)
+}
+.filterAccordionBreadcrumbs :global(.vtex-search-result-3-x-filterBreadcrumbsText){
+    color:  rgb(253, 7, 60);
+    text-transform: uppercase;
+}
+.filterClearButtonWrapper :global(.vtex-button){
+    background-color: rgb(253, 7, 60);
+}
+.filterClearButtonWrapper :global(.vtex-button__label){
+    color:white;
+}
+.filterApplyButtonWrapper :global(.vtex-button__label){
+    color:white;
+}
