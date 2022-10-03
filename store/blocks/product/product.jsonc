@@ -48,7 +48,8 @@
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "right-col"
     },
     "children": [
       "vtex.store-components:product-name",
@@ -84,7 +85,7 @@
       "social": {
         "Facebook": true,
         "WhatsApp": true,
-        "Twitter": false,
+        "Twitter": true,
         "Pinterest": true
       }
     }

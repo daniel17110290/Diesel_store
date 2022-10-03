@@ -1,0 +1,3 @@
+.loginOptionsContainer :global(.vtex-button__label){
+    color: white
+}

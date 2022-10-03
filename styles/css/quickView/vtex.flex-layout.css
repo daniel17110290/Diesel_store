@@ -1,11 +1,16 @@
-/* .flexCol--container__quick--view{
+.flexCol--container__quick--view{
   align-items: center;
+  gap: 0.5rem
 }
 .flexRowContent--container__qick--info{
   align-items: center;
+  gap: 5rem;
 }
 .flexRow--container__qick--info{
-  padding: 3rem;
+  margin: 2rem;
     display: flex;
     align-items: center;
+}
+/* .flexRow--container__qick--info{
+  margin: 2rem;
 } */

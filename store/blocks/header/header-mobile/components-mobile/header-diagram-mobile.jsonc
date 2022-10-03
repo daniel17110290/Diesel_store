@@ -58,7 +58,8 @@
   },
   "drawer": {
     "children": [
-      "menu#header__menu--departments"
+      // "menu#header__menu--departments"
+      "menu#header__menu--mobile"
     ]
   },
   "flex-layout.row#search__mobile": {

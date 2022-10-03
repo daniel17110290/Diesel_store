@@ -9,8 +9,8 @@
 }
 .wrapper--Text__payment--method{
     width: 100%;
-
-
     color: white;
-
+}
+.container--metodos__pago{
+    justify-content: center;
 }

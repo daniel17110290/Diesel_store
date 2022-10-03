@@ -1,3 +1,20 @@
 .gallery--gallery__product{
     margin-top: 4rem;
 }
+.galleryItem--gallery__product--normal :global(.vtex-reviews-and-ratings-3-x-stars ){
+    display: flex;
+    color: red;
+    margin-right: 5rem;
+}
+@media (max-width: 425px) {
+    .galleryItem--gallery__product--normal :global(.vtex-reviews-and-ratings-3-x-stars ){
+        display: flex;
+        color: red;
+        margin-right: 0
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .gallery--gallery__product{
+        margin-left: 95px
+    }
+}

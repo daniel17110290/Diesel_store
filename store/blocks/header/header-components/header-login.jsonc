@@ -1,13 +1,14 @@
 {
-    "login#header__login": {
-        "props": {
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true,
-            "logInButtonBehavior": "link",
-            "showIconProfile": true
-        }
+  "login#header__login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "logInButtonBehavior": "link",
+      "showIconProfile": true,
+      "iconLabel": "sesion"
     }
+  }
 }

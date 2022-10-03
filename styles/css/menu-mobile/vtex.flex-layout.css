@@ -1,0 +1,14 @@
+
+/* @media (max-width: 320px) {
+  .flexRowContent--menu__image :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    position: relative;
+  }  
+}
+.flexRowContent--menu__login--help{
+  display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.flexColChild--login__mobile{
+  background-color: black;
+} */

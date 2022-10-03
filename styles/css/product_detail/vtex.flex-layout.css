@@ -1,0 +1,12 @@
+.flexCol--right-col{
+    align-items: center;
+}
+.flexColChild--right-col :global(.vtex-reviews-and-ratings-3-x-stars){
+    color: rgb(253, 7, 60);
+}
+.flexColChild--right-col :global(.vtex-address-form-4-x-container){
+    border-color:rgb(253, 7, 60) ;
+}
+.flexColChild--right-col :global(.vtex-dropdown__arrow){
+    color:rgb(253, 7, 60) ;
+}

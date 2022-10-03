@@ -57,6 +57,16 @@
       "blockClass": "filter__department"
     }
   },
+  "filter-navigator.v3": {
+    "blocks": [
+      "sidebar-close-button"
+    ],
+    "props": {
+      "blockCLass": "filter__products",
+      "fullWidthOnMobile": true,
+      "closeOnOutsideClick": true
+    }
+  },
   "flex-layout.col#products__gallery--departmen": {
     "children": [
       "search-content#products__gallery"
@@ -95,6 +105,11 @@
     ],
     "props": {
       "blockCLass": "container__summary--shelf"
+    }
+  },
+  "product-rating-inline": {
+    "props": {
+      "blockCLass": "rating__product"
     }
   },
   "flex-layout.row#add__list--button": {
@@ -199,7 +214,7 @@
     "children": [
       "add-to-list-btn",
       "vtex.store-components:product-name",
-      "vtex.store-components:product-brand",
+      //"vtex.store-components:product-brand",
       "vtex.store-components:product-description",
       "vtex.store-components:share",
       "product-quantity",

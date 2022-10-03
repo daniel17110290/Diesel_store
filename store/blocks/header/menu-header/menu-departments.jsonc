@@ -10,6 +10,7 @@
   "menu#header__menu--departments": {
     "title": "menu header departments",
     "children": [
+      //"flex-layout.col#menu__departments--list"
       "menu-item#department__man",
       "menu-item#department__woman",
       "menu-item#department__sale"
@@ -19,4 +20,29 @@
       "experimentalOptimizeRendering": true
     }
   }
+  // "flex-layout.col#menu__departments--list": {
+  //   "children": [
+  //     "flex-layout.row#menu__image--man"
+  //     // "flex-layout.row#menu__image--woman",
+  //     // "flex-layout.row#menu__image--sale"
+  //   ],
+  //   "props": {
+  //     "blockClass": "menu__departments--list"
+  //   }
+  // },
+  // "flex-layout.row#menu__image--man": {
+  //   "children": [
+  //     "image#menu__man--image",
+  //     "menu-item#department__man"
+  //   ],
+  //   "props": {
+  //     "blockClass": "menu__image"
+  //   }
+  // },
+  // "image#menu__man--image": {
+  //   "props": {
+  //     "src": "assets/images/menu-man.png",
+  //     "blockClass": "menu__man--image"
+  //   }
+  // }
 }

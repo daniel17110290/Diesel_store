@@ -81,7 +81,7 @@
       "base": "#ffffff",
       "base--inverted": "#03044e",
       "action-primary": "rgb(253, 7, 60)",
-      "action-secondary": "#eef3f7",
+      "action-secondary": "rgb(253, 7, 60)",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",

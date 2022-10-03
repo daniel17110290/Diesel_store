@@ -1,0 +1,118 @@
+{
+  "menu#header__menu--mobile": {
+    "title": "menu mobile",
+    "children": [
+      "flex-layout.col#menu__departments--list"
+    ]
+  },
+  "flex-layout.col#menu__departments--list": {
+    "children": [
+      "flex-layout.row#menu__image--man",
+      "flex-layout.row#menu__image--woman",
+      "flex-layout.row#menu__image--sale"
+      //"flex-layout.row#menu__login--help"
+    ],
+    "props": {
+      "blockClass": "menu__departments--list"
+    }
+  },
+  "flex-layout.row#menu__image--man": {
+    "children": [
+      "image#menu__man--image",
+      "menu-item#department__man"
+    ],
+    "props": {
+      "blockClass": "menu__image"
+    }
+  },
+  "image#menu__man--image": {
+    "props": {
+      "src": "assets/images/menu-man.png",
+      "blockClass": "department--image"
+    }
+  },
+  "flex-layout.row#menu__image--woman": {
+    "children": [
+      "image#menu__woman--image",
+      "menu-item#department__woman"
+    ],
+    "props": {
+      "blockClass": "menu__image"
+    }
+  },
+  "image#menu__woman--image": {
+    "props": {
+      "src": "assets/images/menu-woman.png",
+      "blockClass": "department--image"
+    }
+  },
+  "flex-layout.row#menu__image--sale": {
+    "children": [
+      "image#menu__sale--image",
+      "menu-item#department__sale"
+    ],
+    "props": {
+      "blockClass": "menu__image"
+    }
+  },
+  "image#menu__sale--image": {
+    "props": {
+      "src": "assets/images/menu-sale.png",
+      "blockClass": "department--image"
+    }
+  },
+  "flex-layout.row#menu__login--help": {
+    "children": [
+      "flex-layout.col#login__mobile",
+      "flex-layout.col#ayuda__mobile"
+      // "login#mobile__sesion",
+      // "link#ayuda__mobile"
+    ],
+    "props": {
+      "blockClass": "menu__login--help"
+    }
+  },
+  "flex-layout.col#login__mobile": {
+    "children": [
+      "link#login__mobile"
+      //"login#mobile__sesion"
+    ],
+    "props": {
+      "blockClass": "login__mobile",
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#ayuda__mobile": {
+    "children": [
+      "link#ayuda__mobile"
+    ],
+    "props": {
+      "blockClass": "login__mobile",
+      "width": "50%"
+    }
+  },
+  "link#login__mobile": {
+    "props": {
+      "label": "Login",
+      // "displayMode": "button",
+      "blockClass": "mobile",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular",
+        "href": "/login?returnUrl=%2F"
+      }
+    }
+  },
+  "link#ayuda__mobile": {
+    "props": {
+      "label": "Ayuda",
+      // "displayMode": "button",
+      "blockClass": "mobile",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular",
+        "href": "/about-us"
+      }
+    }
+  }
+}

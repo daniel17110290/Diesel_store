@@ -7,3 +7,7 @@
 .imageContainer--image__product{
   max-height: 200px
 } */
+
+.image--image__product{
+  height: 200px
+}
