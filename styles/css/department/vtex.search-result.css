@@ -3,13 +3,13 @@
 }
 .galleryItem--gallery__product--normal :global(.vtex-reviews-and-ratings-3-x-stars ){
     display: flex;
-    color: red;
+    color: rgb(253, 7, 60);
     margin-right: 5rem;
 }
 @media (max-width: 425px) {
     .galleryItem--gallery__product--normal :global(.vtex-reviews-and-ratings-3-x-stars ){
         display: flex;
-        color: red;
+        color: rgb(253, 7, 60);
         margin-right: 0
     }
 }
@@ -17,4 +17,10 @@
     .gallery--gallery__product{
         margin-left: 95px
     }
+}
+.filterAccordionItemBox--departamento{
+    border-color: rgb(253, 7, 60) !important
+}
+.filterAccordionItemBox--departamento :global(.vtex-search-result-3-x-accordionFilterItemIcon){
+    color: rgb(253, 7, 60) !important;
 }

@@ -1,7 +1,55 @@
 .flexRow--list__mini--cart{
   padding: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;  
   /* border: 1px solid black; */
 }
+.flexColChild--list__mini--cart-info :global(.vtex-product-list-0-x-productPrice){
+  color: rgb(253, 7, 60)
+}
+.flexColChild--list__mini--cart-info :global(.vtex-product-list-0-x-productPriceContainer):last-child::before{ 
+  content: "$";
+  color: rgb(253, 7, 60);
+}
+.flexColChild--list__mini--cart-info :global(.vtex-product-list-0-x-productPriceContainer){ 
+  display: flex;
+  padding-top: 0.2rem;
+}
+.flexColChild--list__mini--cart :global(.vtex-product-list-0-x-removeButtonContainer){
+  display: flex;
+    justify-content: end;
+}
+
+
+@media (max-width: 425px) {
+  /* .flexColChild--list__mini--cart :global(.vtex-product-list-0-x-productImageContainer){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  /* .flexColChild--list__mini--cart-image{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .flexCol--list__mini--cart{
+    align-items: flex-start;
+  } */
+  .flexRowContent--list__mini--cart{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .flexCol--list__mini--cart-info :global(.vtex-product-list-0-x-quantitySelectorWrapper){
+    height: 25px
+  }
+  .flexCol--list__mini--cart-info :global(.vtex-product-list-0-x-quantitySelectorButton){
+    width: 35px
+  }
+  .flexCol--list__mini--cart-info :global(.vtex-product-list-0-x-inputContainer){
+    width: 6ch
+  }
+  
+}
+
