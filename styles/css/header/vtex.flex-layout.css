@@ -26,3 +26,8 @@
     margin: auto;
     padding: 1rem;
 }
+@media (max-width:1024px) {
+    .flexRowContent--login__mobile :global(.vtex-button__label){
+        padding: 0;
+    }
+}

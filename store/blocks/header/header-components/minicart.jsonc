@@ -92,7 +92,7 @@
       "product-list-image"
     ],
     "props": {
-      "blockClass": "list__mini--cart"
+      "blockClass": "list__mini--cart-image"
     }
   },
   "flex-layout.col#minicart__col--info": {
@@ -102,12 +102,13 @@
       "price"
     ],
     "props": {
-      "blockClass": "list__mini--cart"
+      "blockClass": "list__mini--cart-info"
     }
   },
   "quantity-selector#minicart": {
     "props": {
-      "mode": "stepper"
+      "mode": "stepper",
+      "blockCLass": "quantity__selector--minicart"
     }
   },
   "flex-layout.col#minicart__col--remove": {

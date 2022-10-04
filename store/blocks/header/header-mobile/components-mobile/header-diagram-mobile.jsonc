@@ -64,10 +64,21 @@
   },
   "flex-layout.row#search__mobile": {
     "children": [
-      "modal-trigger#header__search--desktop"
+      "modal-trigger#header__search--mobile"
     ],
     "props": {
       "blockClass": "search__mobile"
+    }
+  },
+  "modal-trigger#header__search--mobile": {
+    "children": [
+      "icon#search__mobile--header",
+      "modal-layout#header__search"
+    ]
+  },
+  "icon#search__mobile--header": {
+    "props": {
+      "id": "hpa-search"
     }
   },
   "flex-layout.col#logo__center--mobile": {
