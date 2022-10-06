@@ -8,10 +8,10 @@
 .flexColChild--list__mini--cart-info :global(.vtex-product-list-0-x-productPrice){
   color: rgb(253, 7, 60)
 }
-.flexColChild--list__mini--cart-info :global(.vtex-product-list-0-x-productPriceContainer):last-child::before{ 
+/* .flexColChild--list__mini--cart-info :global(.vtex-product-list-0-x-productPriceContainer):last-child::before{ 
   content: "$";
   color: rgb(253, 7, 60);
-}
+} */
 .flexColChild--list__mini--cart-info :global(.vtex-product-list-0-x-productPriceContainer){ 
   display: flex;
   padding-top: 0.2rem;

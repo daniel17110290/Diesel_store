@@ -1,7 +1,8 @@
 {
   "store.search#department": {
     "blocks": [
-      "search-result-layout"
+      "search-result-layout",
+      "filters-departmen.categories"
     ],
     "props": {
       "context": {
