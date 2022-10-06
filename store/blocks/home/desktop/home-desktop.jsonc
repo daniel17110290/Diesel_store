@@ -9,7 +9,8 @@
       "flex-layout.row#home__banner--four",
       "flex-layout.row#home__banner--five",
       "flex-layout.row#card__home--store",
-      "flex-layout.row#custom__components--links"
+      "flex-layout.row#custom__components--links",
+      "filters-departmen"
     ],
     "props": {
       "blockClass": "container__desktop--home"
